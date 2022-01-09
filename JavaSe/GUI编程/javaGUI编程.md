@@ -25,7 +25,7 @@ frame.setLocation(0,0);
 //frame.setResizable(false);
 ```
 
-![1618756705698](1618756705698.png)
+ ![1618756705698](1618756705698.png)
 
 ### 2、2 Panel面板
 
@@ -51,7 +51,7 @@ frame.add(panel);
 frame.setVisible(true);
 ```
 
-![1618756735243](1618756735243.png)
+ ![1618756735243](1618756735243.png)
 
 ### 2、3 三大基本设置布局
 
@@ -88,7 +88,7 @@ frame.add(button3);
 frame.setVisible(true);
 ```
 
-![1618756640194](1618756640194.png)
+ ![1618756640194](1618756640194.png)
 
 #### 2、东西南北中布局 BorderLayout
 
@@ -120,7 +120,7 @@ frame.setBackground(new Color(245, 64, 251));
 frame.setVisible(true);
 ```
 
-![1618756590546](1618756590546.png)
+ ![1618756590546](1618756590546.png)
 
 #### 3、表格布局 GridLayout
 
@@ -151,7 +151,7 @@ frame.pack();
 frame.setVisible(true);
 ```
 
-![1618756544682](1618756544682.png)
+ ![1618756544682](1618756544682.png)
 
 ### 2、4 事件监听器
 

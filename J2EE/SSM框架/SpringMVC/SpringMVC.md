@@ -664,7 +664,7 @@ Restful就是一个资源定位及资源操作的风格。不是标准也不是�
 
 如果显示的错误是Ambiguous mapping，请查询看下图
 
-![image-20210811213708171](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210811213717.png)
+ ![image-20210811213708171](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210811213717.png)
 
 ## 4、数据处理及跳转
 

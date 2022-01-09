@@ -187,13 +187,13 @@ public class MyTest {
 
 ### IOC本质
 
-![1](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210726115950.png)
+ ![1](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210726115950.png)
 
-![2](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210726120016.png)
+ ![2](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210726120016.png)
 
-![3](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210726120022.png)
+ ![3](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210726120022.png)
 
-![4](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210726120033.png)
+ ![4](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210726120033.png)
 
 ## 3、Hello Spring
 
@@ -1018,7 +1018,7 @@ public class User {
 
 Spring的一个子项目，在Spring4之后，他成为了核心功能
 
-![2](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210801185126.png)
+ ![2](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210801185126.png)
 
 **实体类：pojo的User.java**
 
@@ -1453,7 +1453,7 @@ public class MyTest {
 
 ### 11.1、什么是AOP？
 
-![1](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210802203834.png)
+ ![1](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210802203834.png)
 
 ![2](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210802203842.png)
 
@@ -1757,7 +1757,7 @@ public class MyTest {
 
 输出结果：
 
-![x](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210802205550.png)
+ ![x](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210802205550.png)
 
 ## 12、整合Mybatis
 

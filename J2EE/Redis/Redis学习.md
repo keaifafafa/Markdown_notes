@@ -1346,7 +1346,7 @@ Redis是内存数据库，断电即失去，只要是内存数据库就一定会
 
 在指定的时间 间隔内将内存中的数据集快照写入到磁盘中，Snapshot快照，恢复时将快照文件直接读到内存中
 
- ![image-20211204185600768](C:\Users\Sire\AppData\Roaming\Typora\typora-user-images\image-20211204185600768.png)
+ ![image-20211204185600768](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211222125351.png)
 
 - 单独创建一个子进程，fork分支
 - 将内存内容写入临时RDB文件
@@ -1413,7 +1413,7 @@ aof默认是文件无限追加，大小会不断扩张
 
 在主从复制中，rdb是备用的，在从机上使用，aof一般不使用
 
- ![image-20211204232947836](C:\Users\Sire\AppData\Roaming\Typora\typora-user-images\image-20211204232947836.png)
+ ![image-20211204232947836](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211222125413.png)
 
 1. fork分支出子进程
 2. 根据内存中的数据子进程创建临时aof文件
@@ -1458,15 +1458,15 @@ aof默认是文件无限追加，大小会不断扩张
 
   **这些配置也能在连接redis后在redis中通过config set 进行更改**
 
-![image-20211204235834311](C:\Users\Sire\AppData\Roaming\Typora\typora-user-images\image-20211204235834311.png)
+![image-20211204235834311](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211222125419.png)
 
 与RDB类似的触发机制，也能生成配置文件
 
-![image-20211204235900341](C:\Users\Sire\AppData\Roaming\Typora\typora-user-images\image-20211204235900341.png)
+![image-20211204235900341](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211222125425.png)
 
 进行了一些操作，如list在同一个key上覆盖值操作，aof是一同操作的，把之前的值进行了覆盖，但是保存的并不是最新的值，而是把全部进行的操作保存了下来，lpush lpop，当从aof文件中恢复数据时，不管最新的值是什么都重新的进行一遍操作，这样在时间上和效率上并不是最优的，但是能保证在每次的操作能进行备份，保证数据不丢失，如果出于绝对的安全考虑可以开启aof
 
- ![image-20211205000045192](C:\Users\Sire\AppData\Roaming\Typora\typora-user-images\image-20211205000045192.png)
+ ![image-20211205000045192](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211222125429.png)
 
 - ### aof文件损坏情况
 

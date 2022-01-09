@@ -51,7 +51,7 @@ public class BaseDao {
     private static String username;
     private static String password;
 
-    //静态代码块，类加载的时候就初始化了
+    // 静态代码块，类加载的时候就初始化了
     static {
         Properties properties = new Properties();
         //通过类加载器读取对应的资源
