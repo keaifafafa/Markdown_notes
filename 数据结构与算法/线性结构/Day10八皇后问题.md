@@ -2,7 +2,7 @@
 
 八皇后问题，是一个古老而著名的问题，是**回溯算法的典型案例**。该问题是国际西洋棋棋手马克斯·贝瑟尔于1848年提出：在8×8格的国际象棋上摆放八个皇后，使其不能互相攻击，即：**任意两个皇后都不能处于同一行、同一列或同一斜线上，问有多少种摆法**。
 
- ![image-20220109195318551](https://gitee.com/lovely-hair/blog-img/raw/master/img/20220109195325.png)
+ ![image-20220109195318551](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220109195325.png)
 
 ## 二、八皇后问题算法思路分析（回溯算法）
 
@@ -113,4 +113,4 @@ public class EightQueen {
 
 其他皇后结果，只需要该更max值即可
 
-![image-20220109200529853](https://gitee.com/lovely-hair/blog-img/raw/master/img/20220109200530.png)
+![image-20220109200529853](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220109200530.png)

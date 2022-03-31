@@ -1,6 +1,6 @@
 ## 一、什么是哈希表
 
- ![image-20220121222316460](https://gitee.com/lovely-hair/blog-img/raw/master/img/20220121222319.png)
+ ![image-20220121222316460](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220121222319.png)
 
 ## 二、需求场景
 
@@ -29,7 +29,7 @@
 
 > ==实现的思路图解==
 
- ![image-20220121223032250](https://gitee.com/lovely-hair/blog-img/raw/master/img/20220121223032.png)
+ ![image-20220121223032250](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220121223032.png)
 
 > ==代码实现==
 

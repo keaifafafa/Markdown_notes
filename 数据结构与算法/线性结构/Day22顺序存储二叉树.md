@@ -2,13 +2,13 @@
 
 > ==基本说明==
 
- ![image-20220123211356300](https://gitee.com/lovely-hair/blog-img/raw/master/img/20220123211358.png)
+ ![image-20220123211356300](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220123211358.png)
 
 
 
 > ==特点==
 
- ![image-20220123211433258](https://gitee.com/lovely-hair/blog-img/raw/master/img/20220123211433.png)
+ ![image-20220123211433258](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220123211433.png)
 
 
 
@@ -18,7 +18,7 @@
 
 > ==要求==
 
- ![image-20220123211741256](https://gitee.com/lovely-hair/blog-img/raw/master/img/20220123211741.png)
+ ![image-20220123211741256](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220123211741.png)
 
 > ==代码实现==
 

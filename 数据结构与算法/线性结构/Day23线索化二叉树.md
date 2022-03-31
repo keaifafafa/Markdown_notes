@@ -16,7 +16,7 @@
 
 > ==案例==
 
- ![image-20220124223600488](https://gitee.com/lovely-hair/blog-img/raw/master/img/20220124223610.png)
+ ![image-20220124223600488](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220124223610.png)
 
 
 
@@ -26,7 +26,7 @@
 
 > ==思路==
 
- ![image-20220124223816970](https://gitee.com/lovely-hair/blog-img/raw/master/img/20220124223817.png)
+ ![image-20220124223816970](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220124223817.png)
 
 > ==代码==
 
@@ -71,7 +71,7 @@ public void threadedBinaryTree(HeroNode node) {
 
 > ==思路==
 
- ![image-20220124224017975](https://gitee.com/lovely-hair/blog-img/raw/master/img/20220124224018.png)
+ ![image-20220124224017975](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220124224018.png)
 
 > ==代码实现==
 

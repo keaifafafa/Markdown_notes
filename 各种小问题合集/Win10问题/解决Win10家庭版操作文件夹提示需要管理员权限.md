@@ -2,7 +2,7 @@
 
 本人原本是想更改 <font color='red'>**cmd**</font> 里的那个用户名的名称的
 
-![image-20210827120407366](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210827120414.png)
+![image-20210827120407366](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210827120414.png)
 
 结果改完就成了图中的结果了(说实话更改这个名字就够头疼的了，结果还出现这个问题。。。。)
 
@@ -34,23 +34,23 @@
           　　pause
           ```
 
-          ![image-20210827122033842](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210827122033.png)
+          ![image-20210827122033842](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210827122033.png)
 
        3. 将文件重命名为"gpedit.bat" 
 
-          ![image-20210827121817408](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210827121817.png)
+          ![image-20210827121817408](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210827121817.png)
 
        4. 然后右键 以管理员身份运行
 
-          ![image-20210827121913447](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210827121913.png)
+          ![image-20210827121913447](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210827121913.png)
 
        5. 重新执行"gpedit.msc"
           Win+R → 输入"gpedit.msc" → Enter 则出现"本地组策略"
 
-          ![image-20210827122217261](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210827122217.png)
+          ![image-20210827122217261](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210827122217.png)
 
 2. 进入本地策略编辑器,对如下两个策略进行 "**禁用**" 
 
-   ![H@9ME7M9YXSJ@T}@PHFOSAH](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210827121358.png)
+   ![H@9ME7M9YXSJ@T}@PHFOSAH](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210827121358.png)
 
 3. 最后重启即可！

@@ -6,7 +6,7 @@
 
 后来我回家翻了翻笔记发现我在学**SpringMVC**的时候是有学过拦截器的（还注明了==重点==两个字），还将其应用到了登录验证功能上
 
- ![image-20220204195429856](https://gitee.com/lovely-hair/blog-img/raw/master/img/20220204195429.png)
+ ![image-20220204195429856](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220204195429.png)
 
 后来我反思了下，**SSM**学完后，直接做了一个书店系统（很简单的CRUD）就结束了，然后就直接==SpringBoot==了，
 
@@ -16,7 +16,7 @@
 
 至于为什么能那么写，就请耐心的看我接下来的内容吧（嘿嘿）
 
- ![image-20220204200015298](https://gitee.com/lovely-hair/blog-img/raw/master/img/20220204200015.png)
+ ![image-20220204200015298](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220204200015.png)
 
 ## 一、什么是过滤器（Filter）
 
@@ -24,7 +24,7 @@
 
 也可以理解为一种预处理手段，对资源进行拦截后，将其中我们认为的杂质（用户自己定义的）过滤，符合条件的放行，不符合的则拦截下来。
 
- ![image-20220204202844297](https://gitee.com/lovely-hair/blog-img/raw/master/img/20220204202844.png)
+ ![image-20220204202844297](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220204202844.png)
 
 ### 1.1、过滤器常见的使用场景
 
@@ -127,7 +127,7 @@ g) 过滤器只能在容器初始化时被调用一次。
 
 拦截器是springmvc提供的，类似于过滤器。主要用于拦截用户请求并作相应的处理。
 
- ![image-20220204205945784](https://gitee.com/lovely-hair/blog-img/raw/master/img/20220204205945.png)
+ ![image-20220204205945784](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220204205945.png)
 
 ### 2.1、拦截器的使用场景
 
@@ -219,7 +219,7 @@ d) 性能检测[检测方法的执行时间]
 
 > ==一张图告诉你答案==
 
- ![image-20220204211710166](https://gitee.com/lovely-hair/blog-img/raw/master/img/20220204211710.png)
+ ![image-20220204211710166](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220204211710.png)
 
 1、过滤器和拦截器触发时机不一样，过滤器是在请求进入容器后，但请求进入servlet之前进行预处理的。请求结束返回也是，是在servlet处理完后，返回给
 
@@ -251,7 +251,7 @@ service，可以调用业务逻辑。而过滤器是JavaEE标准，只需依赖s
 >
 >  ==当有过滤器和拦截器时的执行流程：==
 
- ![image-20220204212000434](https://gitee.com/lovely-hair/blog-img/raw/master/img/20220204212000.png)
+ ![image-20220204212000434](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220204212000.png)
 
 
 
@@ -285,4 +285,4 @@ service，可以调用业务逻辑。而过滤器是JavaEE标准，只需依赖s
 
 这是远远不够的，Java的路还很漫长，等待着我们去探索，加油！！！
 
- ![image-20220204212951463](https://gitee.com/lovely-hair/blog-img/raw/master/img/20220204212951.png)
+ ![image-20220204212951463](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220204212951.png)

@@ -2,11 +2,11 @@
 
 > ==简介==
 
- ![image-20220126212911264](https://gitee.com/lovely-hair/blog-img/raw/master/img/20220126212921.png)
+ ![image-20220126212911264](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220126212921.png)
 
 > ==基本思想==
 
- ![image-20220126212937223](https://gitee.com/lovely-hair/blog-img/raw/master/img/20220126212937.png)
+ ![image-20220126212937223](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220126212937.png)
 
 ## 二、堆排序步骤演示
 
@@ -14,19 +14,19 @@
 
 1) .假设给定无序序列结构如下
 
- ![IMG_256](https://gitee.com/lovely-hair/blog-img/raw/master/img/20220126213350.gif)
+ ![IMG_256](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220126213350.gif)
 
 2) .此时我们从最后一个非叶子结点开始（叶结点自然不用调整，第一个非叶子结点 arr.length/2-1=5/2-1=1，也就是下面的6结点），从左至右，从下至上进行调整。
 
- ![IMG_257](https://gitee.com/lovely-hair/blog-img/raw/master/img/20220126213349.gif)
+ ![IMG_257](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220126213349.gif)
 
 3) .找到第二个非叶节点4，由于[4,9,8]中9元素最大，4和9交换。
 
- ![IMG_258](https://gitee.com/lovely-hair/blog-img/raw/master/img/20220126213347.gif)
+ ![IMG_258](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220126213347.gif)
 
 4) 这时，交换导致了子根[4,5,6]结构混乱，继续调整，[4,5,6]中6最大，交换4和6。
 
- ![IMG_259](https://gitee.com/lovely-hair/blog-img/raw/master/img/20220126213338.gif)
+ ![IMG_259](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220126213338.gif)
 
 此时，我们就将一个无序序列构造成了一个大顶堆。
 
@@ -34,19 +34,19 @@
 
 1) .将堆顶元素9和末尾元素4进行交换
 
- ![IMG_260](https://gitee.com/lovely-hair/blog-img/raw/master/img/20220126213244.gif)
+ ![IMG_260](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220126213244.gif)
 
 2) .重新调整结构，使其继续满足堆定义
 
- ![image-20220126214338652](https://gitee.com/lovely-hair/blog-img/raw/master/img/20220126214338.png)
+ ![image-20220126214338652](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220126214338.png)
 
 3) .再将堆顶元素8与末尾元素5进行交换，得到第二大元素8.
 
- ![image-20220126214359572](https://gitee.com/lovely-hair/blog-img/raw/master/img/20220126214359.png)
+ ![image-20220126214359572](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220126214359.png)
 
 4) 后续过程，继续进行调整，交换，如此反复进行，最终使得整个序列有序
 
- ![IMG_263](https://gitee.com/lovely-hair/blog-img/raw/master/img/20220126213237.gif)
+ ![IMG_263](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220126213237.gif)
 
 **再简单总结下堆排序的基本思路：**
 

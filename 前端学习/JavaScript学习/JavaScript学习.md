@@ -229,7 +229,7 @@ let i = 10;
 
   即使使用未定义的变量也不会报错
 
-   ![1617106200449](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211019211139.png)
+   ![1617106200449](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211019211139.png)
 
 - <font color='red'>动态的删减属性</font>
 
@@ -750,7 +750,7 @@ DOM：文档对象模型
 
 整个浏览器就是一个DOM树形结构
 
-![1617520432359](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211019211211.png)
+![1617520432359](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211019211211.png)
 
 - 更新：更新DOM节点
 - 删除：删除一个DOM节点
@@ -886,7 +886,7 @@ father.removeChild(father.children[2]);
   </script>
  ```
 
-  ![1617686737297](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211019211222.png)
+  ![1617686737297](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211019211222.png)
 
 - <font color='cornflowerblue'>MD5加密</font>
 
@@ -907,7 +907,7 @@ father.removeChild(father.children[2]);
 </script>
 ```
 
-![1617689397573](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211019211228.png)
+![1617689397573](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211019211228.png)
 
 - <font color='cornflowerblue'>表单绑定提交事件 onsubmit</font>
 
@@ -1105,7 +1105,7 @@ div span h1——h6 table tr td p等
 </script>
 ```
 
-![1623655858786](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211019211241.png)
+![1623655858786](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211019211241.png)
 
 #### 2.text()和text("内容")
 
@@ -1120,7 +1120,7 @@ console.log(txt);
 console.log(txt2);
 ```
 
-![1623656608170](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211115201842.png)
+![1623656608170](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211115201842.png)
 
 #### 3.val() 和 val(“值”)
 
@@ -1131,7 +1131,7 @@ var oop = $('#oop').val();//获取元素的值（表单元素）
 console.log(oop);
 ```
 
-![1623657083832](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211019211248.png)
+![1623657083832](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211019211248.png)
 
 ### 5.创建元素
 
@@ -1144,7 +1144,7 @@ console.log(oop);
 </script>
 ```
 
-![1623678198778](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211019211251.png)
+![1623678198778](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211019211251.png)
 
 ```html
 <!DOCTYPE html>

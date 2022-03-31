@@ -11,7 +11,7 @@ MVVM源自于经典的MVC（Model-View-Controller）模式。MVVM的核心是Vie
 - 该层向上与视图层进行双向数据绑定
 - 向下与Model层通过接口请求进行数据交互
 
-![20-1](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210920233126.png)
+![20-1](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210920233126.png)
 
 MVVM已经相当成熟了，主要运用但不仅仅在网络应用程序开发中。当下流行的MVVM框架有`Vue.js`，`Anfular JS`
 
@@ -24,7 +24,7 @@ MVVM模式和MVC模式一样，主要目的是分离视图（View）和模型（
   独立开发：开发人员可以专注于业务逻辑和数据的开发（ViewMode），设计人员可以专注于页面设计。
 - 可测试：界面素来是比较难以测试的，而现在测试可以针对ViewModel来写。
 
-![20-2](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210920233300.png)
+![20-2](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210920233300.png)
 
 （1）View
 
@@ -198,7 +198,7 @@ Vue.js的核心是实现了MVVM模式， 她扮演的角色就是View Model层�
                 el:"#app",
                 /*Model：数据*/
                 data:{
-                    ok: true
+                    ok: false
                 }
             });
         </script>
@@ -327,7 +327,10 @@ Vue.js的核心是实现了MVVM模式， 她扮演的角色就是View Model层�
 
         <div id="app">
             <!-- 官方还有很多玩法！ -->
+            <!-- 写法一 -->
             <button v-on:click="warn()">Please Click Me！</button>
+            <!-- 写法二 -->
+            <button @click="warn()">Please Click Me！</button>
         </div>
 
     </body>
@@ -579,9 +582,9 @@ Vue.js是一个MV VM框架， 即数据双向绑定， 即当数据发生变化�
 
 组件是可复用的`Vue`实例， 说白了就是一组可以重复使用的模板， 跟`JSTL`的自定义标签、`Thymeleal`的`th:fragment`等框架有着异曲同工之妙，通常一个应用会以一棵嵌套的组件树的形式来组织：
 
-![20-4](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210921000132.png)
+ ![20-4](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210921000132.png)
 
-![20-3](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210921000136.png)
+ ![20-3](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210921000136.png)
 
 例如，你可能会有页头、侧边栏、内容区等组件，每个组件又包含了其它的像导航链接、博文之类的组件。
 
@@ -776,9 +779,15 @@ Axios是一个开源的可以用在浏览器端和Node JS的异步通信框架�
 ### 4.4、Vue的生命周期
 
 官方文档：https://cn.vuejs.org/v2/guide/instance.html#生命周期图示
-  Vue实例有一个完整的生命周期，也就是从开始创建初女台化数据、编译模板、挂载DOM、渲染一更新一渲染、卸载等一系列过程，我们称这是Vue的生命周期。通俗说就是Vue实例从创建到销毁的过程，就是生命周期。
-  在Vue的整个生命周期中，它提供了一系列的事件，可以让我们在事件触发时注册JS方法，可以让我们用自己注册的JS方法控制整个大局，在这些事件响应方法中的this直接指向的是Vue的实例。
-![20-1](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210921001119.png)
+
+Vue实例有一个完整的生命周期，也就是从开始创建初女台化数据、编译模板、挂载DOM、渲染一更新一渲染、卸载等一系列过程，我们称这是Vue的生命周
+
+期。通俗说就是Vue实例从创建到销毁的过程，就是生命周期。
+
+在Vue的整个生命周期中，它提供了一系列的事件，可以让我们在事件触发时注册JS方法，可以让我们用自己注册的JS方法控制整个大局，在这些事件响应方
+
+法中的this直接指向的是Vue的实例。
+![20-1](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210921001119.png)
 
 ## 5、计算属性、内容分发、自定义事件
 
@@ -1103,7 +1112,7 @@ var vm = new Vue({
 
 > ==逻辑理解==
 
-![21-1](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210921215144.png)
+![21-1](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210921215144.png)
 
 ### 5.4、Vue入门小结
 
@@ -1185,7 +1194,7 @@ npm install --registry=https://registry.npm.taobao.org
 安装的过程可能有点慢~，耐心等待！虽然安装了cnpm，但是尽量少用！
   安装的位置：`C:\Users\administrator\AppData\Roaming\npm`
 
-![22-2](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210922222855.jpg)
+![22-2](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210922222855.jpg)
 
 **安装vue-cli**
 
@@ -1195,7 +1204,7 @@ cnpm instal1 vue-cli-g
 vue list
 ```
 
-![22-3](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210922223357.jpg)
+![22-3](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210922223357.jpg)
 
 ### 6.3、第一个vue-cli应用程序
 
@@ -1241,7 +1250,7 @@ npm run dev
 
 当出现问题时，可以查看提示进行处理如下
 
-![22-1](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210922223850.jpg)
+![22-1](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210922223850.jpg)
 
 ## 7、Webpack使用
 
@@ -1448,7 +1457,7 @@ npm install vue-router --save-dev
 
 如果提示需要修复，就按照如图操作即可
 
-![23-1](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210923194853.png)
+![23-1](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210923194853.png)
 
 如果在一个模块化工程中使用它，必须要通过Vue.use()明确地安装路由功能：
 
@@ -1616,7 +1625,7 @@ new Vue({
 
 > 最后输入 ==npm run dev== 运行，访问8080进行测试
 
-![image-20210923203921267](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210923203921.png)
+![image-20210923203921267](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210923203921.png)
 
 ## 9、实战快速上手
 
@@ -1658,7 +1667,7 @@ npm run dev
 - views：用于存放Vue视图组件
 - router：用于存放vue-router配置
 
-![image-20210926004224431](https://gitee.com/lovely-hair/blog-img/raw/master/img/20210926004226.png)
+![image-20210926004224431](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210926004226.png)
 
 **创建首页视图，在views目录下创建一个名为Main.vue的视图组件：**
 
@@ -2125,9 +2134,9 @@ Profile.vue
 
 ```javascript
 export default new Router({
-  mode: 'history',
-  routes: [
-  ]
+    mode: 'history',
+    routes: [
+    ]
 });
 
 ```
@@ -2227,7 +2236,7 @@ Profile.vue
 
 5.路由钩子和axios结合图
 
-![image-20210926005914331](https://gitee.com/lovely-hair/blog-img/raw/master/img/20210926005914.png)
+![image-20210926005914331](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210926005914.png)
 
 
 

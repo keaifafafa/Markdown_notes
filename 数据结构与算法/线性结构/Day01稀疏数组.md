@@ -6,7 +6,7 @@
 
 ### 一、实际需求
 
- ![image-20211228095508633](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211228095517.png)
+ ![image-20211228095508633](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211228095517.png)
 
 ### 二、基本介绍
 
@@ -18,7 +18,7 @@
 
 2)把具有不同值的元素的行列及值记录在一个小规模的数组中，从而缩小程序的规模
 
- ![image-20211228205553882](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211228205556.png)
+ ![image-20211228205553882](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211228205556.png)
 
 ### 三、应用实例
 
@@ -28,7 +28,7 @@
 
 3)整体思路分析
 
- ![image-20211228205822958](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211228205823.png)
+ ![image-20211228205822958](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211228205823.png)
 
 4)代码实现
 

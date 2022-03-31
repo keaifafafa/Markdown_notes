@@ -6,7 +6,7 @@
 2. 单向链表不可以自我删除，需要考辅助节点，而双向链表，则可以自我删除，所以我们单链表删除节点，总是需要找到temp，temp是待删除节点的前一个节点（认真体会）。
 3. 示意图辅助理解删除
 
- ![image-20220104161842548](https://gitee.com/lovely-hair/blog-img/raw/master/img/20220105150223.png)
+ ![image-20220104161842548](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220105150223.png)
 
 分析 双向链表的遍历，添加，修改，删除的操作思路===》代码实现
 

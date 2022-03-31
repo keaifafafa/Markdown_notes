@@ -43,7 +43,7 @@ SpringMVC：SSM框架整合！
 
 **最典型的MVC就是JSP + servlet + javabean的模式。**
 
-![3](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210808205749.png)
+![3](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210808205749.png)
 
 ### 1.2、Model1时代
 
@@ -51,7 +51,7 @@ SpringMVC：SSM框架整合！
 
 - Model1中，主要分为两层，视图层和模型层
 
-  ![4](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210808205919.webp)
+  ![4](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210808205919.webp)
 
   Model1优点：架构简单，比较适合小型项目开发；
 
@@ -61,7 +61,7 @@ SpringMVC：SSM框架整合！
 
 Model2把一个项目分成三部分，包括**视图、控制、模型。**
 
-![5](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210808210018.webp)
+![5](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210808210018.webp)
 
 1. 用户发请求
 2. Servlet接收请求数据，并调用对应的业务逻辑方法
@@ -103,7 +103,7 @@ Model2这样不仅提高的代码的复用率与项目的扩展性，且大大�
 
 #### 1、概述
 
-![6](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210808210327.png)
+ ![6](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210808210327.png)
 
 Spring MVC是Spring Framework的一部分，是基于Java实现MVC的轻量级Web框架。
 
@@ -134,17 +134,17 @@ DispatcherServlet的作用是将请求分发到不同的处理器。从Spring 2.
 
 ​	Spring MVC框架像许多其他MVC框架一样, **以请求为驱动** , **围绕一个中心Servlet分派请求及提供其他功能**，**DispatcherServlet是一个实际的Servlet (它继承自HttpServlet 基类)**。
 
-![7](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210808210427.png)
+![7](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210808210427.png)
 
 SpringMVC的原理如下图所示：
 
 ​	当发起请求时被前置的控制器拦截到请求，根据请求参数生成代理请求，找到请求对应的实际控制器，控制器处理请求，创建数据模型，访问数据库，将模型响应给中心控制器，控制器使用模型与视图渲染视图结果，将结果返回给中心控制器，再将结果返回给请求者。
 
-![8](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210808210531.png)
+![8](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210808210531.png)
 
 #### 3、SpringMVC执行原理
 
-![9](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210808210604.png)
+![9](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210808210604.png)
 
 图为SpringMVC的一个较完整的流程图，实线表示SpringMVC框架提供的技术，不需要开发者实现，虚线表示需要开发者实现。
 
@@ -323,7 +323,7 @@ SpringMVC的原理如下图所示：
 
 11. 配置Tomcat 启动测试！
 
-    ![1](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210808201721.webp)
+    ![1](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210808201721.webp)
 
     **可能遇到的问题：访问出现404，排查步骤：**
 
@@ -333,7 +333,7 @@ SpringMVC的原理如下图所示：
 
     小结：看这个估计大部分同学都能理解其中的原理了，但是我们实际开发才不会这么写，不然就疯了，还学这个玩意干嘛！我们来看个注解版实现，这才是SpringMVC的精髓，到底有多么简单，看这个图就知道了。
 
-    ![2](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210808204057.webp)
+    ![2](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210808204057.webp)
 
 #### 注解版
 
@@ -579,7 +579,7 @@ Restful就是一个资源定位及资源操作的风格。不是标准也不是�
 
 3. 测试
 
-   ![1](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210811213935.png)
+   ![1](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210811213935.png)
 
 4. 思考：使用路径变量的好处？
 
@@ -589,7 +589,7 @@ Restful就是一个资源定位及资源操作的风格。不是标准也不是�
 
    - 通过路径变量的类型可以约束访问参数，如果类型不一样，则访问不到对应的请求方法，如这里访问是的路径是/commit/1/a，则路径与方法不匹配，而不会是参数转换失败。
 
-     ![2](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210811214014.webp)
+     ![2](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210811214014.webp)
 
 6. 我们来修改下对应的参数类型，再次测试
 
@@ -608,7 +608,7 @@ Restful就是一个资源定位及资源操作的风格。不是标准也不是�
    
    ```
 
-   ![3](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210811214139.png)
+   ![3](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210811214139.png)
 
 **使用method属性指定请求类型**
 
@@ -629,7 +629,7 @@ Restful就是一个资源定位及资源操作的风格。不是标准也不是�
 
 - 我们使用浏览器地址栏进行访问默认是Get请求，会报错405：
 
-  ![4](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210811214302.png)
+  ![4](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210811214302.png)
 
 - 如果将POST修改为GET则正常了；
 
@@ -664,7 +664,7 @@ Restful就是一个资源定位及资源操作的风格。不是标准也不是�
 
 如果显示的错误是Ambiguous mapping，请查询看下图
 
- ![image-20210811213708171](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210811213717.png)
+ ![image-20210811213708171](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210811213717.png)
 
 ## 4、数据处理及跳转
 

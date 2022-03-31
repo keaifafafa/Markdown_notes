@@ -75,7 +75,7 @@ public class SwaggerConfig {
 
 5、访问测试 ：http://localhost:8080/swagger-ui.html ，可以看到swagger的界面；
 
-![image-20211010123233706](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211010123233.png)
+![image-20211010123233706](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211010123233.png)
 
 > ==配置Swagger==
 
@@ -189,7 +189,7 @@ public Docket docket() {
 }
 ```
 
-![10-9-2](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211010124205.png)
+![10-9-2](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211010124205.png)
 
 2、如何动态配置当项目处于test、dev环境时显示swagger，处于prod时不显示？
 
@@ -215,11 +215,11 @@ public Docket docket(Environment environment) {
 
 3、可以在项目中增加一个dev的配置文件查看效果！
 
-![9-1](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211010123951.png)
+![9-1](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211010123951.png)
 
 > ==配置API分组==
 
-![image-20211010124219361](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211010124219.png)
+![image-20211010124219361](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211010124219.png)
 
 1、如果没有配置分组，默认是default。通过groupName()方法即可配置分组：
 
@@ -276,7 +276,7 @@ public User getUser(){
 
 3、重启查看测试
 
-![image-20211010124841636](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211010124841.png)
+![image-20211010124841636](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211010124841.png)
 
 注：并不是因为@ApiModel这个注解让实体显示在这里了，而是只要出现在接口方法的返回值上的实体都会显示在这里，而@ApiModel和@ApiModelProperty这两个注解只是为实体添加注释的。
 

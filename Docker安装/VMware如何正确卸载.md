@@ -2,7 +2,7 @@
 
 由于学习需要，安装了Docker在win10上，导致VMware无法启动（版本15.0.5），于是卸载了VMware，重新安装最新版（16.1），但是总是失败，原因如下：
 
- ![image-20211226122616259](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211226122616.png)
+ ![image-20211226122616259](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211226122616.png)
 
 > ==问题原因==
 
@@ -20,11 +20,11 @@
 
 1、win+x调出powershell
 
- ![image-20211226123733308](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211226123733.png)
+ ![image-20211226123733308](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211226123733.png)
 
 2、将下载的VMware-workstation-full-15.0.2-10952284.exe文件路径粘贴到命令行后面跟空格和 “/c”回车即可。格式：EXE文件路径 /c
 
- ![image-20211226123800667](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211226123800.png)
+ ![image-20211226123800667](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211226123800.png)
 
 3、点击确定即可，清理完成。
 
@@ -36,9 +36,9 @@
 
 解决办法：右键我的电脑->属性->控制面板主页->程序->程序和功能->找到VMware，右键更改然后会出现修复->点击修复等待完成就可以使用VMware了
 
- ![image-20211226124028119](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211226124028.png)
+ ![image-20211226124028119](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211226124028.png)
 
- ![image-20211226124044434](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211226124044.png)
+ ![image-20211226124044434](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211226124044.png)
 
 如果还是不能解决问题，直接点击管理员身份运行。
 
@@ -56,18 +56,18 @@ https://download3.vmware.com/software/wkst/file/VMware-workstation-full-15.0.4-1
 
 搜索页
 
- ![image-20211226124329870](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211226124329.png)
+ ![image-20211226124329870](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211226124329.png)
 
 选择希望下载的版本，进入下载页面
 
 下载页
 
- ![image-20211226124418269](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211226124418.png)
+ ![image-20211226124418269](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211226124418.png)
 
 在下载页中点击了解更多
 
 软件详情
 
- ![image-20211226124511945](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211226124512.png)
+ ![image-20211226124511945](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211226124512.png)
 
 复制软件详情中的name，将其替换到文章开头的链接中，将替换后的链接输入到浏览器中，即可完成下载。

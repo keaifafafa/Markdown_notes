@@ -461,7 +461,7 @@ jdbc.maxLifetime = 1800000
 
 ## 2、前端资源引入
 
-![image-20210821091855782](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210821091903.png)
+![image-20210821091855782](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210821091903.png)
 
 > <font color='red'>index.jsp</font>
 
@@ -491,7 +491,7 @@ jdbc.maxLifetime = 1800000
 
 > <font color='red'>测试</font>
 
-![image-20210821092231755](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210821092231.png)
+![image-20210821092231755](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210821092231.png)
 
 <font color='green'>ok！</font>
 
@@ -512,7 +512,7 @@ create table `student`(
 )ENGINE=InnoDB DEFAULT CHARSET=utf8;
 ```
 
-![1](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210821113250.png)
+![1](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210821113250.png)
 
 ## 4、头部和尾部的布局
 
@@ -606,7 +606,7 @@ create table `student`(
   
   ```
 
-  ![image-20210822090523179](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210822090530.png)
+  ![image-20210822090523179](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210822090530.png)
 
 ## 5、添加学生页面布局及前端验证
 

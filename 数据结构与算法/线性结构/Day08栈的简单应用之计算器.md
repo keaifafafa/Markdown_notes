@@ -14,7 +14,7 @@
 
 ### 2、图示
 
- ![image-20220106150547047](https://gitee.com/lovely-hair/blog-img/raw/master/img/20220106150554.png)
+ ![image-20220106150547047](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220106150554.png)
 
 ### 3、代码实现
 
@@ -299,7 +299,7 @@ class ArrayStack2 {
 
 3)**再比如**
 
- ![image-20220106201918161](https://gitee.com/lovely-hair/blog-img/raw/master/img/20220106201921.png)
+ ![image-20220106201918161](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220106201921.png)
 
 **后缀表达式的计算机求值**
 
@@ -436,7 +436,7 @@ public class PolandNotation {
 
 ### 1、实现思路
 
- ![image-20220106203251168](https://gitee.com/lovely-hair/blog-img/raw/master/img/20220106203251.png)
+ ![image-20220106203251168](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220106203251.png)
 
 1. 初始化两个栈，运算符栈s1和储存中间结果的栈s2;
 2. 从左至右扫描中缀表达式；

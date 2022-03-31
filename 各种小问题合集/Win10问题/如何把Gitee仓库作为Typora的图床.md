@@ -18,21 +18,21 @@ PicGo简单点说就是一个图床上传工具，我们主要就是借助这个
 
 https://github.com/Molunerfinn/PicGo/releases/tag/v2.3.0-beta.4
 
-![image-20210926145121582](https://gitee.com/lovely-hair/blog-img/raw/master/img/20210926145128.png)
+![image-20210926145121582](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210926145128.png)
 
 对应于你的操作系统来安装。
 
 安装完成后启动，mac的需要注意，打开后会自动最小化在状态栏，右击就可以进主窗口。
 
-![image-20210926145218624](https://gitee.com/lovely-hair/blog-img/raw/master/img/20210926145218.png)
+![image-20210926145218624](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210926145218.png)
 
 根据我下面的指示做，安装gitee的插件，记住一定要按照成功，不然无法进行下面的操作。
 
-![image-20210926145336096](https://gitee.com/lovely-hair/blog-img/raw/master/img/20210926145336.png)
+![image-20210926145336096](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210926145336.png)
 
 安装成功后，我们可以看到如下界面
 
-![image-20210926145438066](https://gitee.com/lovely-hair/blog-img/raw/master/img/20210926145438.png)
+![image-20210926145438066](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210926145438.png)
 
 ## 2、创建Gitee仓库
 
@@ -42,30 +42,30 @@ https://github.com/Molunerfinn/PicGo/releases/tag/v2.3.0-beta.4
 
 > ==新建仓库==
 
-![image-20210926145715131](https://gitee.com/lovely-hair/blog-img/raw/master/img/20210926145715.png)
+![image-20210926145715131](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210926145715.png)
 
-![image-20210926150059175](https://gitee.com/lovely-hair/blog-img/raw/master/img/20210926150059.png)
+![image-20210926150059175](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210926150059.png)
 
 > ==创建完成后，点击头像然后进入设置，进入私密令牌==
 
-![image-20210926150251340](https://gitee.com/lovely-hair/blog-img/raw/master/img/20210926150251.png)
+![image-20210926150251340](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210926150251.png)
 
 > ==右上角生成一个令牌，然后将令牌的密钥复制好！待会我们需要用到配置，最好保存在txt文本，防止丢失。==
 
-![image-20210926150430438](https://gitee.com/lovely-hair/blog-img/raw/master/img/20210926150430.png)
+![image-20210926150430438](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210926150430.png)
 
 ## 3、配置秘钥
 
 > ==前往picGo，点击Gitee图床，进行配置==
 
-![image-20210926150943590](https://gitee.com/lovely-hair/blog-img/raw/master/img/20210926150943.png)
+![image-20210926150943590](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210926150943.png)
 
 ## 4、配置Typora
 
 进入Typora偏好设置->图像，对其进行下面图片的配置。
 
-![image-20210926151303954](https://gitee.com/lovely-hair/blog-img/raw/master/img/20210926151304.png)
+![image-20210926151303954](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210926151304.png)
 
 点击验证图片上传选项，显示成功的话就成功啦！！！
 
-![image-20210926151315624](https://gitee.com/lovely-hair/blog-img/raw/master/img/20210926151315.png)
+![image-20210926151315624](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210926151315.png)

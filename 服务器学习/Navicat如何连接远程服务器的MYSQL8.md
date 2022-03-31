@@ -22,7 +22,7 @@ mysql -uroot -p    ## 以root登录数据库
 
 输入root的登录密码，成功后会看到以下信息：
 
- ![image-20220110215436712](https://gitee.com/lovely-hair/blog-img/raw/master/img/20220110215446.png)
+ ![image-20220110215436712](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220110215446.png)
 
 ### 2、查看mysql服务当前的默认端口
 
@@ -31,7 +31,7 @@ use mysql;    ## 选择mysql数据库
 select user,host from user;    ## 查看用户访问端口
 ```
 
- ![image-20220110215606429](https://gitee.com/lovely-hair/blog-img/raw/master/img/20220110215606.png)
+ ![image-20220110215606429](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220110215606.png)
 
 > ==**说明**：root用户默认的是localhost，说明只允许从本地登录mysql服务。而我们要从远程以root用户连接数据库，就必须修改host的值，改为**'%'**：允许任何ip访问。==
 
@@ -43,7 +43,7 @@ select user,host from user;    ## 查看用户访问端口
 update user set host = '%' where user = 'root';
 ```
 
- ![image-20220110215750876](https://gitee.com/lovely-hair/blog-img/raw/master/img/20220110215750.png)
+ ![image-20220110215750876](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220110215750.png)
 
 看到以上信息说明修改成功！
 
@@ -55,7 +55,7 @@ select user,host from user;    ## 查看用户访问端口
 
 会看到：root用户的host已经修改为'%'！
 
- ![image-20220110215828349](https://gitee.com/lovely-hair/blog-img/raw/master/img/20220110215828.png)
+ ![image-20220110215828349](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220110215828.png)
 
 > ==**注意**：**修改完成后 还需要刷新一下服务配置，不然修改不会生效，并且第4步会执行失败。**==
 
@@ -83,11 +83,11 @@ mysql> ALTER USER 'root'@'%' IDENTIFIED WITH mysql_native_password BY 'root_pwd'
 
 打开Navicat客户端，新建mysql连接
 
- ![image-20220110220134967](https://gitee.com/lovely-hair/blog-img/raw/master/img/20220110220135.png)
+ ![image-20220110220134967](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220110220135.png)
 
 输入相关信息：
 
- ![image-20220110220302976](https://gitee.com/lovely-hair/blog-img/raw/master/img/20220110220303.png)
+ ![image-20220110220302976](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220110220303.png)
 
 如果显示连接成功了，那么恭喜你，可以进行远程操作数据库了
 
@@ -99,7 +99,7 @@ mysql> ALTER USER 'root'@'%' IDENTIFIED WITH mysql_native_password BY 'root_pwd'
 
 ### 1、首先确定防火墙放行3306端口
 
- ![image-20220110221904630](https://gitee.com/lovely-hair/blog-img/raw/master/img/20220110221904.png)
+ ![image-20220110221904630](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220110221904.png)
 
 ### 2、确定防火请是否启动
 
@@ -133,7 +133,7 @@ CGroup: /system.slice/firewalld.service
 
 
 
- ![image-20220110222142822](https://gitee.com/lovely-hair/blog-img/raw/master/img/20220110222142.png)
+ ![image-20220110222142822](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220110222142.png)
 
 ### 3、放通防火墙
 

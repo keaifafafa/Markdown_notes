@@ -4,7 +4,7 @@
 
 > ==1、单机Mysql时代==
 
-![image-20211120214317631](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211120214325.png)
+![image-20211120214317631](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211120214325.png)
 
 90年代,一个网站的访问量一般不会太大，单个数据库完全够用。随着用户增多，网站出现以下问题
 
@@ -16,7 +16,7 @@
 
 网站80%的情况都是在读，每次都要去查询数据库的话就十分的麻烦！所以说我们希望减轻数据库的压力，我们可以使用缓存来保证效率！
 
-![image-20211120214528890](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211120214529.png)
+![image-20211120214528890](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211120214529.png)
 
 优化过程经历了以下几个过程：
 
@@ -26,7 +26,7 @@
 
 > ==3、分库分表 + 水平拆分 + Mysql集群==
 
- ![image-20211120214748163](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211120214748.png)
+ ![image-20211120214748163](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211120214748.png)
 
 > ==4、如今最近的年代==
 
@@ -34,7 +34,7 @@
 
 > ==目前一个基本的互联网项目==
 
- ![image-20211120214954423](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211120214954.png)
+ ![image-20211120214954423](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211120214954.png)
 
 > ==为什么要使用NoSQL==
 
@@ -127,7 +127,7 @@ NoSQL泛指非关系型数据库，随着web2.0互联网的诞生，传统的关
 
 > ==图形关系数据库==
 
- ![image-20211122204054985](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211122204055.png)
+ ![image-20211122204054985](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211122204055.png)
 
 存储的是关系
 
@@ -136,7 +136,7 @@ NoSQL泛指非关系型数据库，随着web2.0互联网的诞生，传统的关
 
 
 
- ![image-20211122203926489](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211122203933.png)
+ ![image-20211122203926489](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211122203933.png)
 
 ## 二、Redis入门
 
@@ -212,7 +212,7 @@ wget http://download.redis.io/releases/redis-5.0.3.tar.gz
   make install
   ```
 
-   ![image-20211122224833290](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211122224833.png)
+   ![image-20211122224833290](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211122224833.png)
 
 - 然后启动服务端
 
@@ -234,7 +234,7 @@ wget http://download.redis.io/releases/redis-5.0.3.tar.gz
   ps -ef|grep redis
   ```
 
-   ![image-20211122225232578](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211122225232.png)
+   ![image-20211122225232578](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211122225232.png)
 
 - 关闭redis
 
@@ -243,14 +243,14 @@ wget http://download.redis.io/releases/redis-5.0.3.tar.gz
   exit
   ```
 
-   ![image-20211122225522299](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211122225522.png)
+   ![image-20211122225522299](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211122225522.png)
 
 
 ### 2.3、Redis的压力测试
 
 菜鸟教程：https://www.runoob.com/redis/redis-benchmarks.html
 
- ![image-20211123164703942](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211123164711.png)
+ ![image-20211123164703942](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211123164711.png)
 
 ```bash
 # 测试 100个并发，100000请求
@@ -395,7 +395,7 @@ PSETEX key milliseconds value
 127.0.0.1:6379> mset user:1:name fafa user:1:age 21OK127.0.0.1:6379> mget user:1:name1) "fafa"127.0.0.1:6379> mget user:1:name user:1:age1) "fafa"2) "21"127.0.0.1:6379> 
 ```
 
- ![image-20211126160422768](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211126160432.png)
+ ![image-20211126160422768](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211126160432.png)
 
 > ==小结==
 
@@ -412,7 +412,7 @@ String类似的使用场景：value除了是我们的**字符串**还可是**数
 
 基本的数据类型，列表
 
- ![image-20211129173456369](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211129173503.png)
+ ![image-20211129173456369](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211129173503.png)
 
 在redis里面，我们可以把redis玩成 栈，队列，阻塞队列！
 
@@ -1027,9 +1027,9 @@ public class TestPing {    public static void main(String[] args) {        // 1�
 public class TestTx {    public static void main(String[] args) {        Jedis jedis = new Jedis("127.0.0.1",6379);        // 开启事务        JSONObject jsonObject = new JSONObject();        jsonObject.put("hello","world");        jsonObject.put("name","fafa");        Transaction multi = jedis.multi();        String s = jsonObject.toJSONString();        try {            multi.set("user1",s);            multi.set("user2",s);            // 执行事务！            multi.exec();        } catch (Exception e) {            // 取消事务(回滚)！            multi.discard();            e.printStackTrace();        } finally {            System.out.println(jedis.get("user1"));            System.out.println(jedis.get("user2"));            // 关闭连接            jedis.close();        }    }}
 ```
 
- ![image-20211202231334025](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211202231335.png)
+ ![image-20211202231334025](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211202231335.png)
 
- ![image-20211202231551037](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211202231551.png)
+ ![image-20211202231551037](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211202231551.png)
 
 
 
@@ -1346,7 +1346,7 @@ Redis是内存数据库，断电即失去，只要是内存数据库就一定会
 
 在指定的时间 间隔内将内存中的数据集快照写入到磁盘中，Snapshot快照，恢复时将快照文件直接读到内存中
 
- ![image-20211204185600768](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211222125351.png)
+ ![image-20211204185600768](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211222125351.png)
 
 - 单独创建一个子进程，fork分支
 - 将内存内容写入临时RDB文件
@@ -1413,7 +1413,7 @@ aof默认是文件无限追加，大小会不断扩张
 
 在主从复制中，rdb是备用的，在从机上使用，aof一般不使用
 
- ![image-20211204232947836](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211222125413.png)
+ ![image-20211204232947836](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211222125413.png)
 
 1. fork分支出子进程
 2. 根据内存中的数据子进程创建临时aof文件
@@ -1458,15 +1458,15 @@ aof默认是文件无限追加，大小会不断扩张
 
   **这些配置也能在连接redis后在redis中通过config set 进行更改**
 
-![image-20211204235834311](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211222125419.png)
+![image-20211204235834311](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211222125419.png)
 
 与RDB类似的触发机制，也能生成配置文件
 
-![image-20211204235900341](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211222125425.png)
+![image-20211204235900341](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211222125425.png)
 
 进行了一些操作，如list在同一个key上覆盖值操作，aof是一同操作的，把之前的值进行了覆盖，但是保存的并不是最新的值，而是把全部进行的操作保存了下来，lpush lpop，当从aof文件中恢复数据时，不管最新的值是什么都重新的进行一遍操作，这样在时间上和效率上并不是最优的，但是能保证在每次的操作能进行备份，保证数据不丢失，如果出于绝对的安全考虑可以开启aof
 
- ![image-20211205000045192](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211222125429.png)
+ ![image-20211205000045192](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211222125429.png)
 
 - ### aof文件损坏情况
 
@@ -1506,13 +1506,13 @@ Redis 客户端可以订阅任意数量的频道。
 
 下图展示了频道 channel1 ， 以及订阅这个频道的三个客户端 —— client2 、 client5 和 client1 之间的关系：
 
- ![image-20211205160920694](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211205160920.png)
+ ![image-20211205160920694](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211205160920.png)
 
 当有新消息通过 PUBLISH 命令发送给频道 channel1 时， 这个消息就会被发送给订阅它的三个客户端：
 
- ![image-20211205160939629](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211205160939.png)
+ ![image-20211205160939629](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211205160939.png)
 
- ![image-20211205160953429](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211205160953.png)
+ ![image-20211205160953429](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211205160953.png)
 
 > ==测试==
 
@@ -1542,7 +1542,7 @@ Reading messages... (press Ctrl-C to quit)
 (integer) 1
 ```
 
- ![image-20211205160244682](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211205160251.png)
+ ![image-20211205160244682](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211205160251.png)
 
 **使用场景：**
 
@@ -1589,7 +1589,7 @@ repl_backlog_histlen:0
 
    修改完毕后，启动三个集群服务（单机多服务）
 
-    ![image-20211205171450486](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211205171450.png)
+    ![image-20211205171450486](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211205171450.png)
 
 #### 2、一主二从
 
@@ -1681,7 +1681,7 @@ repl_backlog_histlen:14
 
 上一个M连接下一个S
 
- ![image-20211205181130068](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211205181130.png)
+ ![image-20211205181130068](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211205181130.png)
 
   这时候我们也可以完成我们的主从复制！
 
@@ -1695,7 +1695,7 @@ repl_backlog_histlen:14
 
 （自动选择老大）
 
- ![image-20211205184928113](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211205184928.png)
+ ![image-20211205184928113](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211205184928.png)
 
 
 
@@ -1753,7 +1753,7 @@ repl_backlog_histlen:14
 
    
 
-   ![image-20211205190807228](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211205190807.png)
+   ![image-20211205190807228](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211205190807.png)
 
    此时如果主机回来了，只能归并到新的主机下，当做从机，这就是哨兵模式的规则！
 
@@ -1798,7 +1798,7 @@ redis缓存的使用极大的提升了应用程序的性能和效率，特别是
 
 - 当持久化层不命中后，将返回的空对象存储起来，同时设置一个过期时间，之后再访问这个数据就从缓存中获取，保护持久层数据源
 
- ![image-20211205213404235](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211205213404.png)
+ ![image-20211205213404235](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211205213404.png)
 
 - 需要面临的问题
   - 存储空的key也需要空间
@@ -1827,7 +1827,7 @@ redis缓存的使用极大的提升了应用程序的性能和效率，特别是
 
 双十一时会停掉一些服务，保证主要的一些服务可用，springcloud中说明过
 
- ![image-20211205213536064](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211205213536.png)
+ ![image-20211205213536064](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211205213536.png)
 
 > ==解决方案==
 

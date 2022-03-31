@@ -24,19 +24,19 @@
 
 > ==二叉树示意图==
 
- ![image-20220122232012082](https://gitee.com/lovely-hair/blog-img/raw/master/img/20220122232020.png)
+ ![image-20220122232012082](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220122232020.png)
 
 > ==概念==
 
- ![image-20220122232110347](https://gitee.com/lovely-hair/blog-img/raw/master/img/20220122232110.png)
+ ![image-20220122232110347](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220122232110.png)
 
- ![image-20220122232432418](https://gitee.com/lovely-hair/blog-img/raw/master/img/20220122232432.png)
+ ![image-20220122232432418](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220122232432.png)
 
 ## 三、二叉树前中后序遍历
 
 > ==遍历说明==
 
- ![image-20220122232623897](https://gitee.com/lovely-hair/blog-img/raw/master/img/20220122232623.png)
+ ![image-20220122232623897](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220122232623.png)
 
 前序遍历: **先输出父节点**，再遍历左子树和右子树
 
@@ -48,7 +48,7 @@
 
 > ==遍历要求==
 
- ![image-20220122232716077](https://gitee.com/lovely-hair/blog-img/raw/master/img/20220122232716.png)
+ ![image-20220122232716077](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220122232716.png)
 
 > ==代码实现==
 
@@ -257,7 +257,7 @@ class HeroNode {
 
 > ==需求==
 
- ![image-20220122233549339](https://gitee.com/lovely-hair/blog-img/raw/master/img/20220122233549.png)
+ ![image-20220122233549339](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220122233549.png)
 
 > ==代码实现==
 
@@ -375,7 +375,7 @@ public HeroNode postOrderSearch(int no) {
 
 > ==要求==
 
- ![image-20220122233634014](https://gitee.com/lovely-hair/blog-img/raw/master/img/20220122233634.png)
+ ![image-20220122233634014](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220122233634.png)
 
 > ==代码实现==
 
@@ -438,4 +438,4 @@ public void delNode(int no) {
 
 > ==课后思考==
 
- ![image-20220122234108368](https://gitee.com/lovely-hair/blog-img/raw/master/img/20220122234108.png)
+ ![image-20220122234108368](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220122234108.png)

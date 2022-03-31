@@ -4,13 +4,13 @@
 
 ## 二、归并排序思想示意图
 
- ![image-20220115214642301](https://gitee.com/lovely-hair/blog-img/raw/master/img/20220115214644.png)
+ ![image-20220115214642301](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220115214644.png)
 
 一共需要合并 nums.length - 1次，带入到此图中就是 7 次
 
 就拿 4 5 7 8这组和 1 2 3 6这组的合并举例说明合并过程（也就是最后一次合并）
 
- ![image-20220115215027118](https://gitee.com/lovely-hair/blog-img/raw/master/img/20220115215027.png)
+ ![image-20220115215027118](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220115215027.png)
 
 ## 三、代码实现
 

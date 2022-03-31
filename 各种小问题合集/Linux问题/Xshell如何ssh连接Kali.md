@@ -12,11 +12,11 @@
 
 修改以下内容第32行和第37行
 
-![001](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210911180343.jpeg)
+![001](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210911180343.jpeg)
 
 把32行的 "prohibit-password" 改为 "yes" 并把把32行 和37行前的"#"号删掉，改完效果如下图：
 
-![002](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210911180520.jpeg)
+![002](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210911180520.jpeg)
 
 > 重启ssh服务：
 
@@ -34,18 +34,18 @@ root@xuegod53:/etc/init.d# update-rc.d ssh enable
 
 root@xuegod53:~# ifconfig
 
-![003](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210911180706.jpeg)
+![003](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210911180706.jpeg)
 
-我们回到windows上配置xshell![004](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210911180724.jpeg)
+我们回到windows上配置xshell![004](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210911180724.jpeg)
 
-输入名称和ip地址![005](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210911180743.jpeg)
+输入名称和ip地址![005](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210911180743.jpeg)
 
-配置终端模式![006](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210911180802.jpeg)
+配置终端模式![006](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210911180802.jpeg)
 
-输入用户名![008](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210911180819.png)
+输入用户名![008](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210911180819.png)
 
-输入密码![009](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210911180846.jpeg)
+输入密码![009](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210911180846.jpeg)
 
-![011](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210911180912.jpeg)
+![011](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210911180912.jpeg)
 
 最后点击确定即可远程连接到Kali

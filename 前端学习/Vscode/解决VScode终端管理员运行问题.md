@@ -2,7 +2,7 @@
 
 就是在vscode里打开终端，输入命令会报错，如下图
 
-![475401-20200119161713685-1043413891](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210922232524.png)
+![475401-20200119161713685-1043413891](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210922232524.png)
 
 
 
@@ -17,6 +17,6 @@
 
 最后上过程图和效果图
 
-![22-1](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210922232910.png)
+![22-1](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210922232910.png)
 
-![QQ截图20210922233311](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210922233506.png)
+![QQ截图20210922233311](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210922233506.png)

@@ -4,7 +4,7 @@
 
 链表是有序的列表，但是它在内存中是存储如下
 
- ![image-20211230190347193](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211230190407.png)
+ ![image-20211230190347193](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211230190407.png)
 
 小结:
 
@@ -22,7 +22,7 @@
 
 单链表(带头结点) **逻辑结构**示意图如下
 
- ![image-20211230190525691](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211230190525.png)
+ ![image-20211230190525691](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211230190525.png)
 
 #### 2.2、单链表的应用实例
 
@@ -36,11 +36,11 @@
 3)**第二种方式在添加英雄时**，根据排名将英雄插入到指定位置
 		(如果有这个排名，则添加失败，并给出提示)
 
- ![image-20211230190736889](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211230190736.png)
+ ![image-20211230190736889](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211230190736.png)
 
 #### 2.3、添加节点代码实现
 
- ![image-20211230222102586](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211230222109.png)
+ ![image-20211230222102586](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211230222109.png)
 
 > ==未优化版本（即第一种添加方式)==
 
@@ -182,11 +182,11 @@ class HeroNode{
 
 ```
 
- ![image-20211230191404889](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211230191405.png)
+ ![image-20211230191404889](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211230191405.png)
 
 #### 2.4、添加节点代码优化
 
- ![image-20211230222042782](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211230222042.png)
+ ![image-20211230222042782](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211230222042.png)
 
 > ==优化后的方法==
 
@@ -263,7 +263,7 @@ public class SingleLinkedListDemo {
 
 > ==效果图==
 
- ![image-20211230210142356](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211230210142.png)
+ ![image-20211230210142356](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211230210142.png)
 
 #### 2.5、修改节点代码的实现
 
@@ -306,7 +306,7 @@ public void updateLink(HeroNode heroNode) {
 
 #### 2.6、删除节点
 
- ![image-20211230221958246](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211230222000.png)
+ ![image-20211230221958246](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211230222000.png)
 
 ```java
 /**

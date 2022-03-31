@@ -16,7 +16,7 @@
 
 3) 常见的排序算法分类(见下图):
 
- ![image-20220111171532272](https://gitee.com/lovely-hair/blog-img/raw/master/img/20220111171539.png)
+ ![image-20220111171532272](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220111171539.png)
 
 ## 二、算法的时间复杂度
 
@@ -48,7 +48,7 @@
 
 比如计算1-100所有数字之和, 我们设计两种算法：
 
- ![image-20220111172416095](https://gitee.com/lovely-hair/blog-img/raw/master/img/20220111172416.png)
+ ![image-20220111172416095](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220111172416.png)
 
 第一种循环了100次（total += i），然后最后进行了一次i <= end ,所以是 n + 1.
 
@@ -56,9 +56,9 @@
 
 #### 2.2、低次项可忽略
 
- ![image-20220111172814611](https://gitee.com/lovely-hair/blog-img/raw/master/img/20220111172814.png)
+ ![image-20220111172814611](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220111172814.png)
 
- ![image-20220111172831677](https://gitee.com/lovely-hair/blog-img/raw/master/img/20220111172831.png) 
+ ![image-20220111172831677](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220111172831.png) 
 
 结论: 
 
@@ -68,7 +68,7 @@
 
 #### 2.3、忽略系数
 
- ![image-20220111173013102](https://gitee.com/lovely-hair/blog-img/raw/master/img/20220111173013.png)
+ ![image-20220111173013102](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220111173013.png)
 
 结论: 
 
@@ -96,7 +96,7 @@ T(n) / f(n) 的极限值为不等于零的常数，则称f(n)是T(n)的同数量
 
 #### 3.1、常见的时间复杂度
 
- ![image-20220111180608382](https://gitee.com/lovely-hair/blog-img/raw/master/img/20220111180608.png)
+ ![image-20220111180608382](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220111180608.png)
 
 **说明**：
 
@@ -128,7 +128,7 @@ while(i < n){
 }
 ```
 
- ![image-20220111181523763](https://gitee.com/lovely-hair/blog-img/raw/master/img/20220111181523.png)
+ ![image-20220111181523763](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220111181523.png)
 
 #### 3.4、线性阶 O(n)
 
@@ -141,13 +141,13 @@ for(int i = 0; i < n; i++){
 
 #### 3.5、线性对数阶 O(nlog2n)
 
- ![image-20220111181909252](https://gitee.com/lovely-hair/blog-img/raw/master/img/20220111181909.png)
+ ![image-20220111181909252](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220111181909.png)
 
 **说明**：线性对数阶O(nlog2n) 其实非常容易理解，将时间复杂度为O(log2n)的代码循环N遍的话，那么它的时间复杂度就是 n * O(log2n)，也就是了O(nlog2n)
 
 #### 3.6、平方阶 O(n2)
 
- ![image-20220111182048551](https://gitee.com/lovely-hair/blog-img/raw/master/img/20220111182048.png)
+ ![image-20220111182048551](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220111182048.png)
 
 #### 3.7、6)**立方阶**O(n³)**、**K次方阶O(n^k)
 
@@ -163,7 +163,7 @@ for(int i = 0; i < n; i++){
 
 3)平均时间复杂度和最坏时间复杂度是否一致，和算法有关(如图:)。
 
- ![image-20220111182306734](https://gitee.com/lovely-hair/blog-img/raw/master/img/20220111182306.png)
+ ![image-20220111182306734](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220111182306.png)
 
 ## 三、算法的空间复杂度
 

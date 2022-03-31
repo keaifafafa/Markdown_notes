@@ -53,7 +53,7 @@ public static void main(String[] args) {
 
 > ==结果==
 
- ![image-20211231135807628](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211231135815.png)
+ ![image-20211231135807628](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211231135815.png)
 
 ### 2、查找单链表中的倒数第k个结点 【新浪面试题】
 
@@ -113,11 +113,11 @@ System.out.println("英雄信息为：" + findInverseNode(linkedList.getHead(), 
 
 > ==效果图==
 
- ![image-20211231160449194](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211231160449.png)
+ ![image-20211231160449194](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211231160449.png)
 
 ### 3、单链表的反转【腾讯面试题，有点难度】
 
- ![image-20211231222138790](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211231222139.png)
+ ![image-20211231222138790](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211231222139.png)
 
 > ==实现代码==
 
@@ -183,7 +183,7 @@ queryAll(reverseLink);
 
 > ==效果图==
 
- ![image-20211231173444089](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211231173446.png)
+ ![image-20211231173444089](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211231173446.png)
 
 ### 4、从尾到头打印单链表 【百度，要求方式1：反向遍历 。 方式2：Stack栈】
 
@@ -191,7 +191,7 @@ queryAll(reverseLink);
 
 方式2：Stack栈
 
- ![image-20211231222200865](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211231222200.png)
+ ![image-20211231222200865](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211231222200.png)
 
 > ==实现代码==
 
@@ -236,7 +236,7 @@ getAllStack(nodeStack);
 
 > ==运行结果==
 
- ![image-20211231220101192](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211231220101.png)
+ ![image-20211231220101192](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211231220101.png)
 
 
 

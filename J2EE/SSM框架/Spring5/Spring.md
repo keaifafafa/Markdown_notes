@@ -54,15 +54,15 @@
 
 
 
-![1](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210725165019.png)
+![1](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210725165019.png)
 
 ### 1.4、扩展
 
 **现代化的java开发 -> 基于Spring的开发**
 
-![2](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210725165156.png)
+![2](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210725165156.png)
 
-![3](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210725165214.png)
+![3](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210725165214.png)
 
 
 
@@ -138,7 +138,7 @@
 
 6. 在我们之前的业务中，用户的需求可能会影响我们原来的代码，我们需要根据用户的需求去修改原代码！如果程序代码量十分大，修改一次的成本代价十分昂贵！
 
-![4](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210725165521.png)
+![4](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210725165521.png)
 
 **改良：我们使用一个Set接口实现。已经发生了革命性的变化！**
 
@@ -183,17 +183,17 @@ public class MyTest {
 
 - 这是IOC（控制反转）的原型，反转(理解)：**主动权交给了用户**
 
-![5](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210725165853.png)
+![5](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210725165853.png)
 
 ### IOC本质
 
- ![1](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210726115950.png)
+ ![1](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210726115950.png)
 
- ![2](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210726120016.png)
+ ![2](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210726120016.png)
 
- ![3](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210726120022.png)
+ ![3](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210726120022.png)
 
- ![4](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210726120033.png)
+ ![4](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210726120033.png)
 
 ## 3、Hello Spring
 
@@ -292,7 +292,7 @@ public void setStr(String str) {
 
 **思考**：
 
- ![5](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210726121338.png)
+ ![5](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210726121338.png)
 
 IOC：对象由Spring来创建，管理，装配！
 
@@ -403,7 +403,7 @@ public class MyTest {
      System.out.println(user == user2);
      ```
 
-     ![image-20210726132519625](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210726132521.png)
+     ![image-20210726132519625](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210726132521.png)
 
    总结：在配置文件加载的时候，容器（<bean>）中管理的对象就已经初始化了
 
@@ -617,7 +617,7 @@ import一般用于团队开发，它可以使用多个配置文件，导入并�
 
 官方文档位置
 
- ![1](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210727194629.png)
+ ![1](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210727194629.png)
 
 pojo增加User类
 
@@ -699,9 +699,9 @@ public void test01(){
 
 ### 6.4、Bean Scopes(Bean 作用域)
 
- ![3](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210727210229.png)
+ ![3](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210727210229.png)
 
- ![4](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210727210253.png)
+ ![4](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210727210253.png)
 
 **单例模式(Spring的默认模式)**
 
@@ -709,7 +709,7 @@ public void test01(){
 <bean id="user2" class="pojo.User" c:name="cxk" c:age="19" scope="singleton"></bean>
 ```
 
- ![5](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210727210337.png)
+ ![5](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210727210337.png)
 
 单例模式是把对象放在pool中，需要再取出来，使用的都是同一个对象实例
 
@@ -719,7 +719,7 @@ public void test01(){
 <bean id="user2" class="pojo.User" c:name="cxk" c:age="19" scope="prototype"></bean>
 ```
 
- ![6](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210727210428.png)
+ ![6](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210727210428.png)
 
 其余的request、session、application这些只能在web开放中使用！
 
@@ -892,7 +892,7 @@ Autowired是先byteType,如果唯一則注入，否则byName查找。resource是
 
 在Spring4之后，使用注解开发，必须要保证aop包导入
 
-![1](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210801182728.png)
+![1](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210801182728.png)
 
 使用注解需要导入context的约束
 
@@ -1018,7 +1018,7 @@ public class User {
 
 Spring的一个子项目，在Spring4之后，他成为了核心功能
 
- ![2](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210801185126.png)
+ ![2](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210801185126.png)
 
 **实体类：pojo的User.java**
 
@@ -1096,7 +1096,7 @@ public class MyTest {
 - 静态代理
 - 动态代理
 
-![image-20210801204156559](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210801204157.png)
+![image-20210801204156559](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210801204157.png)
 
 ### 10.1、静态代理
 
@@ -1307,7 +1307,7 @@ public class MyTest {
 
 2. InvocationHandler：调用处理程序
 
-   ![1](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210802181742.png)
+   ![1](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210802181742.png)
 
    实例：
 
@@ -1453,9 +1453,9 @@ public class MyTest {
 
 ### 11.1、什么是AOP？
 
- ![1](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210802203834.png)
+ ![1](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210802203834.png)
 
-![2](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210802203842.png)
+![2](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210802203842.png)
 
 ### 11.2、AOP在Spring中的使用
 
@@ -1469,11 +1469,11 @@ public class MyTest {
 - 切入点(PointCut)：切面通知执行的”地点”的定义。（最后两点：在哪个地方执行，比如：method.invoke()）
 - 连接点(JointPoint)：与切入点匹配的执行点
 
-![3](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210802204152.png)
+![3](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210802204152.png)
 
 SpringAop中，通过Advice定义横切逻辑，Spring中支持5中类型的Advice：
 
-![4](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210802204303.png)
+![4](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210802204303.png)
 
 **即AOP在不改变原有代码的情况下，去增加新的功能（代理）**
 
@@ -1757,7 +1757,7 @@ public class MyTest {
 
 输出结果：
 
- ![x](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210802205550.png)
+ ![x](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210802205550.png)
 
 ## 12、整合Mybatis
 
@@ -1796,7 +1796,7 @@ public class MyTest {
 
   文档：http://mybatis.org/spring/zh/sqlsession.html
 
-  ![image-20210804220050925](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210804220052.png)
+  ![image-20210804220050925](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210804220052.png)
 
 先导入jar包
 

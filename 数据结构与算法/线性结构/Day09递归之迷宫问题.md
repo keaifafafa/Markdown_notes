@@ -58,15 +58,15 @@ public class RecursionTest {
 
 2. 每个空间的数据(局部变量)，是独立的.
 
- ![image-20220108204735276](https://gitee.com/lovely-hair/blog-img/raw/master/img/20220108204744.png)
+ ![image-20220108204735276](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220108204744.png)
 
- ![image-20220108204825937](https://gitee.com/lovely-hair/blog-img/raw/master/img/20220108204826.png)
+ ![image-20220108204825937](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220108204826.png)
 
 ## 二、简单迷宫问题
 
 ### 1、问题描述
 
- ![image-20220108204955053](https://gitee.com/lovely-hair/blog-img/raw/master/img/20220108204955.png)
+ ![image-20220108204955053](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220108204955.png)
 
 ### 2、代码实现
 
@@ -187,7 +187,7 @@ public class MazeDemo {
 
 可以打断点，用debug查看调用全过程
 
- ![image-20220108205208077](https://gitee.com/lovely-hair/blog-img/raw/master/img/20220108205208.png)
+ ![image-20220108205208077](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220108205208.png)
 
 ### 3、最短路径思路
 

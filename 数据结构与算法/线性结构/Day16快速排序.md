@@ -6,9 +6,9 @@
 
 ## 二、快速排序示意图
 
- ![image-20220114222059401](https://gitee.com/lovely-hair/blog-img/raw/master/img/20220114222100.png)
+ ![image-20220114222059401](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220114222100.png)
 
- ![image-20220114222221135](https://gitee.com/lovely-hair/blog-img/raw/master/img/20220114222221.png)
+ ![image-20220114222221135](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220114222221.png)
 
 ## 三、代码实现
 
@@ -149,5 +149,5 @@ class Solution {
 
 > ==和希尔排序速度对比（数据来自上面的letcode试题测试）==
 
- ![image-20220115152902347](https://gitee.com/lovely-hair/blog-img/raw/master/img/20220115152910.png)
+ ![image-20220115152902347](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220115152910.png)
 

@@ -22,15 +22,15 @@
 
 - 第一轮（个位）
 
-   ![image-20220117201646189](https://gitee.com/lovely-hair/blog-img/raw/master/img/20220117201919.png)
+   ![image-20220117201646189](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220117201919.png)
 
 - 第二轮(十位)
 
-   ![image-20220117201709438](https://gitee.com/lovely-hair/blog-img/raw/master/img/20220117201710.png)
+   ![image-20220117201709438](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220117201710.png)
 
 - 第三轮（百位）
 
-   ![image-20220117201811537](https://gitee.com/lovely-hair/blog-img/raw/master/img/20220117201811.png)
+   ![image-20220117201811537](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220117201811.png)
 
 ## 三、代码实现
 
@@ -114,4 +114,4 @@ public class RadixSort {
 
 > ==常用算法总结和对比==
 
- ![image-20220117211039227](https://gitee.com/lovely-hair/blog-img/raw/master/img/20220117211039.png)
+ ![image-20220117211039227](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220117211039.png)

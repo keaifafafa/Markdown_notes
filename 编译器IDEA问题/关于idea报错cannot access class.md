@@ -2,7 +2,7 @@
 
 代码在eclipse里是没问题的，在idea里也可以正常运行，但是就是爆红，显示 cannot access XXXX class，强迫症的我怎么能忍？？？！
 
- ![image-20220123143646849](https://gitee.com/lovely-hair/blog-img/raw/master/img/20220123143646.png)
+ ![image-20220123143646849](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220123143646.png)
 
 > ==解决方案==
 
@@ -18,8 +18,8 @@
 
   
 
-   ![image-20220123143416424](https://gitee.com/lovely-hair/blog-img/raw/master/img/20220123143425.png)!
+   ![image-20220123143416424](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220123143425.png)!
 
   
 
-   ![image-20220123143450294](https://gitee.com/lovely-hair/blog-img/raw/master/img/20220123143450.png)
+   ![image-20220123143450294](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220123143450.png)

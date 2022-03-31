@@ -21,13 +21,13 @@ IDEA默认背景图应该是白色的，不过我个人觉得黑色比较专注�
 
 - File(文件)  -> Settings(设置) -> Appearance & Behavior( 外观行为) -> Apperance(外观)
 
-   ![image-20220203175413379](https://gitee.com/lovely-hair/blog-img/raw/master/img/20220203175430.png)
+   ![image-20220203175413379](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220203175430.png)
 
 > ==更换背景图（重点）==
 
 - 和上面的打开方式一样（只不过是点击 Background Image）
 
-   ![image-20220203175705687](https://gitee.com/lovely-hair/blog-img/raw/master/img/20220203175705.png)
+   ![image-20220203175705687](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220203175705.png)
 
    
 
@@ -35,13 +35,13 @@ IDEA默认背景图应该是白色的，不过我个人觉得黑色比较专注�
 
   
 
-  ![image-20220203180143373](https://gitee.com/lovely-hair/blog-img/raw/master/img/20220203180143.png)
+  ![image-20220203180143373](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220203180143.png)
 
 
 
 > ==最后效果==
 
-![image-20220203180402745](https://gitee.com/lovely-hair/blog-img/raw/master/img/20220203180403.png)
+![image-20220203180402745](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220203180403.png)
 
 ## 图片连接
 

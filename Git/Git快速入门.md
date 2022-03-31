@@ -34,7 +34,7 @@
 
 官网下载太慢，我们可以使用淘宝镜像下载：http://npm.taobao.org/mirrors/git-for-windows/
 
-![image-20210927203559783](https://gitee.com/lovely-hair/blog-img/raw/master/img/20210927203607.png)
+![image-20210927203559783](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210927203607.png)
 
 下载对应的版本即可安装！
 
@@ -44,7 +44,7 @@
 
 安装成功后在开始菜单中会有Git的三个程序！
 
-![image-20210927203658409](https://gitee.com/lovely-hair/blog-img/raw/master/img/20210927203658.png)
+![image-20210927203658409](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210927203658.png)
 
 **Git Bash：**Unix与Linux风格的命令行，使用最多，推荐最多
 
@@ -98,7 +98,7 @@ rm -rf / 切勿在Linux中尝试！删除电脑中全部文件！
 
 查看配置 git config -l
 
-![image-20210927204121887](https://gitee.com/lovely-hair/blog-img/raw/master/img/20210927204121.png)
+![image-20210927204121887](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210927204121.png)
 
 查看不同级别的配置文件：
 
@@ -116,7 +116,7 @@ git config --global  --list
 
 2）、C:\Users\Administrator\ .gitconfig   只适用于当前登录用户的配置  --global 全局
 
-![image-20210927204354106](https://gitee.com/lovely-hair/blog-img/raw/master/img/20210927204354.png)
+![image-20210927204354106](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210927204354.png)
 
 这里可以直接编辑配置文件，通过命令设置后会响应到这里。
 
@@ -131,7 +131,7 @@ git config --global user.email 648119398@qq.com   #邮箱
 
 只需要做一次这个设置，如果你传递了--global 选项，因为Git将总是会使用该信息来处理你在系统中所做的一切操作。如果你希望在一个特定的项目中使用不同的名称或e-mail地址，你可以在该项目中运行该命令而不要--global选项。总之--global为全局配置，不加为某个项目的特定配置。
 
-![image-20210927212553049](https://gitee.com/lovely-hair/blog-img/raw/master/img/20210927212554.png)
+![image-20210927212553049](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210927212554.png)
 
 ## 3、Git的基本理论（重点）
 
@@ -139,7 +139,7 @@ git config --global user.email 648119398@qq.com   #邮箱
 
 Git本地有三个工作区域：工作目录（Working Directory）、暂存区(Stage/Index)、资源库(Repository或Git Directory)。如果在加上远程的git仓库(Remote Directory)就可以分为四个工作区域。文件在这四个区域之间的转换关系如下：
 
-![image-20210927212700493](https://gitee.com/lovely-hair/blog-img/raw/master/img/20210927212700.png)
+![image-20210927212700493](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210927212700.png)
 
 - Workspace：工作区，就是你平时存放项目代码的地方
 - Index / Stage：暂存区，用于临时存放你的改动，事实上它只是一个文件，保存即将提交到文件列表信息
@@ -148,7 +148,7 @@ Git本地有三个工作区域：工作目录（Working Directory）、暂存区
 
 本地的三个区域确切的说应该是git仓库中HEAD指向的版本：
 
-![image-20210927212901565](https://gitee.com/lovely-hair/blog-img/raw/master/img/20210927212901.png)
+![image-20210927212901565](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210927212901.png)
 
 - Directory：使用Git管理的一个目录，也就是一个仓库，包含我们的工作空间和Git的管理空间。
 - WorkSpace：需要通过Git进行版本控制的目录和文件，这些目录和文件组成了工作空间。
@@ -169,7 +169,7 @@ git的工作流程一般是这样的：
 
 因此，git管理的文件有三种状态：已修改（modified）,已暂存（staged）,已提交(committed)
 
-![image-20210927213041575](https://gitee.com/lovely-hair/blog-img/raw/master/img/20210927213041.png)
+![image-20210927213041575](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210927213041.png)
 
 ## 4、Git项目搭建
 
@@ -179,7 +179,7 @@ git的工作流程一般是这样的：
 
 日常使用只要记住下图6个命令：
 
-![image-20210927213139622](https://gitee.com/lovely-hair/blog-img/raw/master/img/20210927213139.png)
+![image-20210927213139622](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210927213139.png)
 
 > ==本地仓库搭建==
 
@@ -194,7 +194,7 @@ git的工作流程一般是这样的：
 
 2、执行后可以看到，仅仅在项目目录多出了一个.git目录，关于版本等的所有信息都在这个目录里面。
 
-![image-20210927213346325](https://gitee.com/lovely-hair/blog-img/raw/master/img/20210927213346.png)
+![image-20210927213346325](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210927213346.png)
 
 > ==克隆远程仓库==
 
@@ -256,9 +256,9 @@ doc/*.txt    #会忽略 doc/notes.txt 但不包括 doc/server/arch.txt
 
 > ==.gitignore文件配置参考==
 
-![gitidea的导入](https://gitee.com/lovely-hair/blog-img/raw/master/img/20210927214427.png)
+![gitidea的导入](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210927214427.png)
 
-![gitidea的导入2](https://gitee.com/lovely-hair/blog-img/raw/master/img/20210927214432.png)
+![gitidea的导入2](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210927214432.png)
 
 ## 6、使用Gitee(码云)测试
 
@@ -268,7 +268,7 @@ doc/*.txt    #会忽略 doc/notes.txt 但不包括 doc/server/arch.txt
 
 1、注册登录码云，完善个人信息
 
-![image-20210927214719217](https://gitee.com/lovely-hair/blog-img/raw/master/img/20210927214719.png)
+![image-20210927214719217](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210927214719.png)
 
 2、设置本机绑定SSH公钥，实现免密码登录！（免密码登录，这一步挺重要的，码云是远程仓库，我们是平时工作在本地仓库！)
 
@@ -280,35 +280,35 @@ doc/*.txt    #会忽略 doc/notes.txt 但不包括 doc/server/arch.txt
   ssh-keygen -t rsa
   ```
 
-  ![23-3](https://gitee.com/lovely-hair/blog-img/raw/master/img/20210927215033.png)
+  ![23-3](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210927215033.png)
 
 - 打开并复制公钥
 
-  ![image-20210927215250843](https://gitee.com/lovely-hair/blog-img/raw/master/img/20210927215250.png)
+  ![image-20210927215250843](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210927215250.png)
 
 3、将公钥信息public key 添加到码云账户中即可！
 
-![image-20210927215654791](https://gitee.com/lovely-hair/blog-img/raw/master/img/20210927215654.png)
+![image-20210927215654791](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210927215654.png)
 
 4、使用码云创建一个自己的仓库！
 
-![image-20210927215811432](https://gitee.com/lovely-hair/blog-img/raw/master/img/20210927215811.png)
+![image-20210927215811432](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210927215811.png)
 
 > ==许可证：开源是否可以随意转载，开源但是不能商业使用，不能转载，...  限制！==
 
-![image-20210927220236193](https://gitee.com/lovely-hair/blog-img/raw/master/img/20210927220236.png)
+![image-20210927220236193](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210927220236.png)
 
 > ==克隆到本地！==
 
-![image-20210927220405812](https://gitee.com/lovely-hair/blog-img/raw/master/img/20210927220405.png)
+![image-20210927220405812](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210927220405.png)
 
 然后再本地的一个文件夹打开**Git**（随便一个文件夹就行）
 
-![image-20210927220746164](https://gitee.com/lovely-hair/blog-img/raw/master/img/20210927220746.png)
+![image-20210927220746164](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210927220746.png)
 
 打开克隆的远程仓库文件（检查下文件有没有错）
 
-![image-20210927220833389](https://gitee.com/lovely-hair/blog-img/raw/master/img/20210927220833.png)
+![image-20210927220833389](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210927220833.png)
 
 没错，可以进行下一步了！
 
@@ -316,39 +316,39 @@ doc/*.txt    #会忽略 doc/notes.txt 但不包括 doc/server/arch.txt
 
 1、新建项目，绑定git。
 
-![image-20210927221009247](https://gitee.com/lovely-hair/blog-img/raw/master/img/20210927221009.png)
+![image-20210927221009247](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210927221009.png)
 
 然后把复制的文件，粘贴到需要被托管的idea文件工程里（如下操作，仅供参考）
 
-![image-20210927221346390](https://gitee.com/lovely-hair/blog-img/raw/master/img/20210927221346.png)
+![image-20210927221346390](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210927221346.png)
 
 然后打开IDEA，观察项目的变化
 
-![image-20210927221909889](https://gitee.com/lovely-hair/blog-img/raw/master/img/20210927221910.png)
+![image-20210927221909889](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210927221910.png)
 
 2、修改文件，使用IDEA操作git。
 
 - 添加到暂存区
 
-  ![image-20210927222604308](https://gitee.com/lovely-hair/blog-img/raw/master/img/20210927222604.png)
+  ![image-20210927222604308](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210927222604.png)
 
 - commit 提交
 
   点击 右边git 旁边 那个绿色 **对钩** 就会出现如下界面
 
-  ![image-20210927222613006](https://gitee.com/lovely-hair/blog-img/raw/master/img/20210927222613.png)
+  ![image-20210927222613006](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210927222613.png)
 
 - push到远程仓库
 
-![image-20210927223257784](https://gitee.com/lovely-hair/blog-img/raw/master/img/20210927223257.png)
+![image-20210927223257784](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210927223257.png)
 
 然后选择需要push的版本
 
-![image-20210927223525658](https://gitee.com/lovely-hair/blog-img/raw/master/img/20210927223525.png)
+![image-20210927223525658](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210927223525.png)
 
 最后看下结果
 
-![image-20210927223639287](https://gitee.com/lovely-hair/blog-img/raw/master/img/20210927223639.png)
+![image-20210927223639287](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210927223639.png)
 
 > ==温馨提示==
 
@@ -360,9 +360,9 @@ doc/*.txt    #会忽略 doc/notes.txt 但不包括 doc/server/arch.txt
 
 分支在GIT中相对较难，分支就是科幻电影里面的平行宇宙，如果两个平行宇宙互不干扰，那对现在的你也没啥影响。不过，在某个时间点，两个平行宇宙合并了，我们就需要处理一些问题了！
 
-![image-20210927224034004](https://gitee.com/lovely-hair/blog-img/raw/master/img/20210927224034.png)
+![image-20210927224034004](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210927224034.png)
 
-![image-20210927224047414](https://gitee.com/lovely-hair/blog-img/raw/master/img/20210927224047.png)
+![image-20210927224047414](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210927224047.png)
 
 git分支中常用指令：
 
@@ -392,7 +392,7 @@ git分支中常用指令：
 
 IDEA中操作
 
-![image-20210927224230493](https://gitee.com/lovely-hair/blog-img/raw/master/img/20210927224230.png)
+![image-20210927224230493](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210927224230.png)
 
 
 

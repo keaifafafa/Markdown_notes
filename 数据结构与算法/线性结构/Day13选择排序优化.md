@@ -6,7 +6,7 @@
 
 ## 选择排序思路分析图
 
- ![image-20220112211432324](https://gitee.com/lovely-hair/blog-img/raw/master/img/20220112211440.png)
+ ![image-20220112211432324](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220112211440.png)
 
 ## 如何优化选择排序
 

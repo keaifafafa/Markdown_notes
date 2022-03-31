@@ -4,7 +4,7 @@
 
 **银行排队案例**
 
- ![image-20211229161321456](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211229161331.png)
+ ![image-20211229161321456](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211229161331.png)
 
 
 
@@ -16,7 +16,7 @@
 
 - 示意图
 
-   ![image-20211229161516939](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211229161517.png)
+   ![image-20211229161516939](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211229161517.png)
 
 ### 三、实现思路
 
@@ -26,7 +26,7 @@
 
 - 因为队列的输出、输入是分别从前后端来处理，因此需要两个变**量** **front**及 **rear**分别记录队列前后端**的下标，front 会随着数据输出而改变，而 rear则是随着数据输入而改变，如图所示:
 
- ![image-20211229161616956](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211229161617.png)
+ ![image-20211229161616956](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211229161617.png)
 
 ### 四、代码实现（Java）
 
@@ -230,7 +230,7 @@ public class ArrayQueueDemo {
 
 问题就是，数组空间无法实现复用，没有形成一个环状（ 取 模 ），就是已经入队的位置，即使出队后，也无法继续利用其位置添加新的元素了
 
- ![image-20211229192142199](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211229192144.png)
+ ![image-20211229192142199](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211229192144.png)
 
 ### 五、代码优化
 

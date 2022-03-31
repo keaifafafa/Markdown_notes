@@ -1,6 +1,6 @@
 ## 一、什么是Docker？
 
- ![image-20211226115907177](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211226115914.png)
+ ![image-20211226115907177](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211226115914.png)
 
 Docker 是一个开源的应用容器引擎，基于 [Go 语言](https://www.runoob.com/go/go-tutorial.html) 并遵从 Apache2.0 协议开源。
 
@@ -73,11 +73,11 @@ Hyper-V 是微软开发的虚拟机，类似于 VMWare 或 VirtualBox，仅适�
 
 Docker下载地址为：https://store.docker.com/editions/community/docker-ce-desktop-windows 点击如图处即可下载安装包：
 
- ![image-20211226120847551](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211226120847.png)
+ ![image-20211226120847551](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211226120847.png)
 
 下载完成后运行安装包，安装完成后界面如图：
 
- ![image-20211226121022481](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211226121022.png)
+ ![image-20211226121022481](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211226121022.png)
 
 单击Close and log out，这个时候我们重启一次电脑
 
@@ -85,7 +85,7 @@ Docker下载地址为：https://store.docker.com/editions/community/docker-ce-de
 
 > ==如果你安装的时候会有这个错误的话，需要作如下操作，没有的话直接跳过此步骤即可==
 
- ![image-20211226121503259](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211226121503.png)
+ ![image-20211226121503259](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211226121503.png)
 
 根据报错提示,猜测可能是我们使用的wsl2版本老了,需要我们自己手动更新一下,我们根据提示去微软官网下载最新版的wsl2安装后即可正常打开。
 [更新包下载链接](https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi)。
@@ -94,12 +94,12 @@ Docker下载地址为：https://store.docker.com/editions/community/docker-ce-de
 
 1、在桌面找到Docker for Windows快捷方式，双击启动即可！启动成功后托盘处会有一个小鲸鱼的图标。打开命令行输入命令：docker version可以查看当前docker版本号，如图：
 
- ![image-20211226121201748](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211226121202.png)
+ ![image-20211226121201748](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211226121202.png)
 
 2、更换镜像源地址
 中国官方镜像源地址为：https://registry.docker-cn.com、http://f1361db2.m.daocloud.io
 
- ![image-20211226121602530](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211226121602.png)
+ ![image-20211226121602530](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211226121602.png)
 
  添加如下内容
 
@@ -123,7 +123,7 @@ Docker下载地址为：https://store.docker.com/editions/community/docker-ce-de
 
 
 
-![image-20211226121700846](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211226121700.png)
+![image-20211226121700846](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211226121700.png)
 
 点击Apply后会重启Docker。
 
@@ -131,7 +131,7 @@ Docker下载地址为：https://store.docker.com/editions/community/docker-ce-de
 
 输入命名“docker run hello-world”可以加载测试镜像来测试。如图：
 
- ![image-20211226121910450](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211226121910.png)
+ ![image-20211226121910450](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211226121910.png)
 
 恭喜，这样即表示安装成功了！
 

@@ -16,7 +16,7 @@
 
 > ==思路图==
 
- ![image-20220113133356188](https://gitee.com/lovely-hair/blog-img/raw/master/img/20220113133406.png)
+ ![image-20220113133356188](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220113133406.png)
 
 ## 二、具体实现及优化（小优化）
 
@@ -30,15 +30,15 @@
 
 - 第一轮遍历过程及结果
 
-   ![image-20220113135153133](https://gitee.com/lovely-hair/blog-img/raw/master/img/20220113135153.png)
+   ![image-20220113135153133](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220113135153.png)
 
 - 第二轮遍历过程及结果
 
-   ![image-20220113135425364](https://gitee.com/lovely-hair/blog-img/raw/master/img/20220113135425.png)
+   ![image-20220113135425364](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220113135425.png)
 
 - 第三轮遍历过程及结果
 
-    ![image-20220113141451323](https://gitee.com/lovely-hair/blog-img/raw/master/img/20220113141451.png)
+    ![image-20220113141451323](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220113141451.png)
 
 提示： 由于默认第一个元素是有序的，所以只需要遍历 （数组长度 - 1）次即可！
 
@@ -96,8 +96,8 @@ public void testInsert() {
 
 ```
 
- ![image-20220113140855618](https://gitee.com/lovely-hair/blog-img/raw/master/img/20220113140855.png)
+ ![image-20220113140855618](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220113140855.png)
 
 效果很好，符合图中所说的特点
 
- ![image-20220113141017657](https://gitee.com/lovely-hair/blog-img/raw/master/img/20220113141017.png)
+ ![image-20220113141017657](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220113141017.png)

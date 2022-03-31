@@ -30,7 +30,7 @@
 
 > ==排序示意图==
 
- ![image-20220114145157872](https://gitee.com/lovely-hair/blog-img/raw/master/img/20220114145206.png)
+ ![image-20220114145157872](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220114145206.png)
 
 ## 四、代码实现
 
@@ -153,4 +153,4 @@ public static void shellSortByShift(int[] arr) {
 
 
 
-![image-20220114161141884](https://gitee.com/lovely-hair/blog-img/raw/master/img/20220114161143.png)
+![image-20220114161141884](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220114161143.png)

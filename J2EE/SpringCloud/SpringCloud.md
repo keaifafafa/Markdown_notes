@@ -173,9 +173,9 @@
 
 Spring官网：https://spring.io/
 
-![image-20211013213140953](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211013213149.png)
+![image-20211013213140953](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211013213149.png)
 
-![image-20211013213201030](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211013213201.png)
+![image-20211013213201030](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211013213201.png)
 
 ### 3.2、SpringBoot和SpringCloud的关系
 
@@ -192,7 +192,7 @@ Spring官网：https://spring.io/
 
 目前成熟的互联网架构，应用服务化拆分 + 消息中间件
 
-![传统网站架构图](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211013215011.png)
+![传统网站架构图](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211013215011.png)
 
 ##### 2. Dubbo 和 SpringCloud对比
 
@@ -204,7 +204,7 @@ https://github.com/spring-cloud
 
 对比结果：
 
-![image-20211013215050602](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211013215050.png)
+![image-20211013215050602](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211013215050.png)
 
 **最大区别：Spring Cloud 抛弃了Dubbo的RPC通信，采用的是基于HTTP的REST方式**
 
@@ -274,7 +274,7 @@ SpringCloud父工程(Project)下初次带着3个子模块(Module)
 - springcloud-consumer-dept-80 【服务提供者】
 - springcloud-provider-dept-8001 【服务消费者】
 
-![image-20211016223203039](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211016223211.png)
+![image-20211016223203039](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211016223211.png)
 
 > ==用到的数据库==
 
@@ -1034,11 +1034,11 @@ public class SpringCloudConsumer {
 
   - 而系统中的其他微服务，使用Eureka的客户端连接到EurekaServer并维持心跳连接。这样系统的维护人员就可以通过EurekaServer来监控系统中各个微服务是否正常运行，Springcloud 的一些其他模块 (比如Zuul) 就可以通过EurekaServer来发现系统中的其他微服务，并执行相关的逻辑.
 
-    ![image-20211017214135245](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211017214142.png)
+    ![image-20211017214135245](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211017214142.png)
 
   - 和Dubbo架构对比.
 
-    ![image-20211017214325460](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211017214325.png)
+    ![image-20211017214325460](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211017214325.png)
 
   - Eureka 包含两个组件：Eureka Server 和 Eureka Client
 
@@ -1054,7 +1054,7 @@ public class SpringCloudConsumer {
 
 - 目前工程状况
 
-  ![image-20211017215346657](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211017215346.png)
+  ![image-20211017215346657](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211017215346.png)
 
 ### 5.3、构建步骤
 
@@ -1106,7 +1106,7 @@ public class SpringCloudConsumer {
 
    源码中Eureka的默认端口以及访问路径:
 
-   ![image-20211017220542706](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211017220542.png)
+   ![image-20211017220542706](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211017220542.png)
 
 4. 主启动类
 
@@ -1131,7 +1131,7 @@ public class SpringCloudConsumer {
 
 5. 启动成功后访问 http://localhost:7001/ 得到以下页面
 
-   ![image-20211017221100547](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211017221100.png)
+   ![image-20211017221100547](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211017221100.png)
 
 > ==eureka-client==
 
@@ -1182,7 +1182,7 @@ public class SpringCloudConsumer {
 
    4. 先启动7001服务端后启动8001客户端进行测试，然后访问监控页http://localhost:7001/ 产看结果如图，成功
 
-      ![17-1](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211017221636.png)
+      ![17-1](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211017221636.png)
 
    5. 修改Eureka上的默认描述信息
 
@@ -1199,7 +1199,7 @@ public class SpringCloudConsumer {
 
    6. 配置关于服务加载的监控信息
 
-      ![image-20211017221816079](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211017221816.png)
+      ![image-20211017221816079](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211017221816.png)
 
       pom.xml中添加依赖
 
@@ -1225,7 +1225,7 @@ public class SpringCloudConsumer {
 
       刷新项目，结果如下图
 
-      ![image-20211017222158758](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211017222158.png)
+      ![image-20211017222158758](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211017222158.png)
 
 > ==Eureka自我保护机制：好死不如赖活==
 
@@ -1273,7 +1273,7 @@ public Object discovery() {
 
 ```
 
-![image-20211017222852452](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211017222852.png)
+![image-20211017222852452](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211017222852.png)
 
 主启动类中加入@EnableDiscoveryClient 注解
 
@@ -1290,9 +1290,9 @@ public class DeptProvider_8001 {
 
 结果如图：
 
-![17-3](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211017223021.png)
+![17-3](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211017223021.png)
 
-![17-2](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211017223038.png)
+![17-2](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211017223038.png)
 
 ### 5.4 、Eureka：集群环境配置
 
@@ -1363,15 +1363,15 @@ public class EurekaServer_7003 {
 
 配置一些自定义本机名字，找到本机hosts文件并打开
 
-![image-20211017224038379](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211017224038.png)
+![image-20211017224038379](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211017224038.png)
 
 在hosts文件最后加上，要访问的本机名称，默认是localhost
 
-![image-20211017224209628](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211017224209.png)
+![image-20211017224209628](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211017224209.png)
 
 修改application.yml的配置，如图为springcloud-eureka-7001配置，springcloud-eureka-7002/springcloud-eureka-7003同样分别修改为其对应的名称即可
 
-![image-20211017224229379](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211017224229.png)
+![image-20211017224229379](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211017224229.png)
 
 在集群中使springcloud-eureka-7001关联springcloud-eureka-7002、springcloud-eureka-7003
 
@@ -1436,7 +1436,7 @@ eureka:
 
 这样模拟集群就搭建号了，就可以把一个项目挂载到三个服务器上了
 
-![image-20211017224411111](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211017224411.png)
+![image-20211017224411111](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211017224411.png)
 
 ### 5.5、对比和ZooKeeper的区别
 
@@ -1500,7 +1500,7 @@ CAP的三进二：CA、AP、CP
 
 > ==Ribbon可以干什么？==
 
-![image-20211021221135361](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211021221145.png)
+![image-20211021221135361](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211021221145.png)
 
 - LB，即负载均衡（LoadBalancer），在微服务或者分布式集群中经常用的一种应用。
 - 负载均衡简单地说就是将用户的请求平摊的分配到多个服务器上，从而达到了系统的HA（高可用）。
@@ -1598,7 +1598,7 @@ private final String REST_URL_PREFIX = "http://SPRINGCLOUD-PROVIDER-DEPT";
 
 流程图：
 
-![image-20211021222838842](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211021222839.png)
+![image-20211021222838842](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211021222839.png)
 
 1.新建两个服务提供者Moudle：springcloud-provider-dept-8003、springcloud-provider-dept-8002
 
@@ -1606,7 +1606,7 @@ private final String REST_URL_PREFIX = "http://SPRINGCLOUD-PROVIDER-DEPT";
 
 3.启动所有服务测试(根据自身电脑配置决定启动服务的个数)，访问http://eureka7001.com:7002/查看结果
 
-![image-20211021224655019](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211021224655.png)
+![image-20211021224655019](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211021224655.png)
 
 测试访问http://localhost/consumer/dept/list 这时候随机访问的是服务提供者8003
 
@@ -1642,7 +1642,7 @@ public class ConfigBean {//@Configuration -- spring  applicationContext.xml
 
 也可以自定义规则，在myRule包下自定义一个配置类MyRule.java，注意：**该包不要和主启动类所在的包同级，要跟启动类所在包同级**：
 
-![image-20211022235403486](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211022235410.png)
+![image-20211022235403486](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211022235410.png)
 
 ```java
 package com.fafa.myrule;
@@ -1831,7 +1831,7 @@ Feign，主要是社区版，大家都习惯面向接口编程。这个是很多
 
 1. 创建springcloud-consumer-fdept-feign模块
 
-   ![image-20211024003503516](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211024003505.png)
+   ![image-20211024003503516](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211024003505.png)
 
    拷贝springcloud-consumer-dept-80模块下的pom.xml，resource，以及java代码到springcloud-consumer-feign模块，并添加feign依赖。
 
@@ -2070,7 +2070,7 @@ Feign，主要是社区版，大家都习惯面向接口编程。这个是很多
 
  多个微服务之间调用的时候，假设微服务A调用微服务B和微服务C，微服务B和微服务C又调用其他的微服务，这就是所谓的“扇出”，如果扇出的链路上**某个微服务的调用响应时间过长，或者不可用**，对微服务A的调用就会占用越来越多的系统资源，进而引起系统崩溃，所谓的“雪崩效应”。
 
-![image-20211024181559345](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211024181607.png)
+![image-20211024181559345](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211024181607.png)
 
  对于高流量的应用来说，单一的后端依赖可能会导致所有服务器上的所有资源都在几十秒内饱和。比失败更糟糕的是，这些应用程序还可能导致服务之间的延迟增加，备份队列，线程和其他系统资源紧张，导致整个系统发生更多的级联故障，这些都表示需要对故障和延迟进行隔离和管理，以达到单个依赖关系的失败而不影响整个应用程序或系统运行。
 
@@ -2082,7 +2082,7 @@ Feign，主要是社区版，大家都习惯面向接口编程。这个是很多
 
  “断路器”本身是一种开关装置，当某个服务单元发生故障之后，通过断路器的故障监控 (类似熔断保险丝) ，向调用方返回一个服务预期的，可处理的备选响应 (FallBack) ，而不是长时间的等待或者抛出调用方法无法处理的异常，这样就可以保证了服务调用方的线程不会被长时间，不必要的占用，从而避免了故障在分布式系统中的蔓延，乃至雪崩。
 
-![image-20211024181742346](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211024181742.png)
+![image-20211024181742346](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211024181742.png)
 
 ### 8.3、Hystrix可以干什么？
 
@@ -2094,21 +2094,21 @@ Feign，主要是社区版，大家都习惯面向接口编程。这个是很多
 
 当一切正常时，请求流可以如下所示：
 
-![image-20211024181859825](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211024181859.png)
+![image-20211024181859825](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211024181859.png)
 
 当许多后端系统中有一个潜在阻塞服务时，它可以阻止整个用户请求：
 
-![image-20211024182007311](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211024182007.png)
+![image-20211024182007311](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211024182007.png)
 
 随着大容量通信量的增加，单个后端依赖项的潜在性会导致所有服务器上的所有资源在几秒钟内饱和。
 
 应用程序中通过网络或客户端库可能导致网络请求的每个点都是潜在故障的来源。比失败更糟糕的是，这些应用程序还可能导致服务之间的延迟增加，从而备份队列、线程和其他系统资源，从而导致更多跨系统的级联故障。
 
-![image-20211024182104680](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211024182104.png)
+![image-20211024182104680](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211024182104.png)
 
 当使用**Hystrix**包装每个基础依赖项时，上面的图表中所示的体系结构会发生类似于以下关系图的变化。**每个依赖项是相互隔离的**，限制在延迟发生时它可以填充的资源中，并包含在回退逻辑中，该逻辑决定在依赖项中发生任何类型的故障时要做出什么样的响应：
 
-![image-20211024182130915](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211024182131.png)
+![image-20211024182130915](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211024182131.png)
 
 **官网资料**（有墙）：https://github.com/Netflix/Hystrix/wiki
 
@@ -2192,7 +2192,7 @@ info:
 
 **prefer-ip-address: true**：
 
-![image-20211024182456662](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211024182456.png)
+![image-20211024182456662](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211024182456.png)
 
 **修改controller**
 
@@ -2289,11 +2289,11 @@ public class DeptProviderHystrix_8001 {
 
 使用熔断后，当访问一个不存在的id时，前台页展示数据如下:
 
-![24-3](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211024182737.png)
+![24-3](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211024182737.png)
 
 而不适用熔断的springcloud-provider-dept–8001模块访问相同地址会出现下面状况:
 
-![24-2](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211024182750.png)
+![24-2](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211024182750.png)
 
 因此，**为了避免因某个微服务后台出现异常或错误而导致整个应用或网页报错，使用熔断是必要的**
 
@@ -2309,7 +2309,7 @@ public class DeptProviderHystrix_8001 {
 
 降级的方式可以根据业务来，可以延迟服务，比如延迟给用户增加积分，只是放到一个缓存中，等服务平稳之后再执行 ；或者在粒度范围内关闭服务，比如关闭相关文章的推荐。
 
-![image-20211024182842565](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211024182842.png)
+![image-20211024182842565](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211024182842.png)
 
 由上图可得，当某一时间内服务A的访问量暴增，而B和C的访问量较少，为了缓解A服务的压力，这时候需要B和C暂时关闭一些服务功能，去承担A的部分服务，从而为A分担压力，叫做服务降级。
 
@@ -2532,15 +2532,15 @@ public class DeptProvider_8001 {
 
 访问：http://localhost:9001/hystrix
 
-![image-20211030185207550](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211030185207.png)
+![image-20211030185207550](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211030185207.png)
 
 进入监控页面：
 
-![image-20211030185234772](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211030185234.png)
+![image-20211030185234772](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211030185234.png)
 
 效果如下图：
 
-![image-20211030185314534](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211030185314.png)
+![image-20211030185314534](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211030185314.png)
 
 ## 九、Zuul路由网关
 
@@ -2552,7 +2552,7 @@ public class DeptProvider_8001 {
 
  其中路由功能负责将外部请求转发到具体的微服务实例上，是实现外部访问统一入口的基础，而过滤器功能则负责对请求的处理过程进行干预，是实现请求校验，服务聚合等功能的基础。Zuul和Eureka进行整合，将Zuul自身注册为Eureka服务治理下的应用，同时从Eureka中获得其他服务的消息，也即以后的访问微服务都是通过Zuul跳转后获得。
 
-![image-20211026234619785](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211026234627.png)
+![image-20211026234619785](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211026234627.png)
 
 **注意**：Zuul 服务最终还是会注册进 Eureka
 
@@ -2682,17 +2682,17 @@ public class ZuulApplication_9527 {
 
 测试:
 
-![image-20211026234936220](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211026234936.png)
+![image-20211026234936220](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211026234936.png)
 
 可以看出Zull路由网关被注册到Eureka注册中心中了！
 
-![image-20211026235043065](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211026235043.png)
+![image-20211026235043065](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211026235043.png)
 
 上图是没有经过Zull路由网关配置时，服务接口访问的路由，可以看出直接用微服务(服务提供方)名称去访问，这样不安全，不能将微服务名称暴露！
 
 所以经过Zull路由网关配置后，访问的路由为：
 
-![image-20211026235149550](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211026235149.png)
+![image-20211026235149550](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211026235149.png)
 
 我们看到，微服务名称被替换并隐藏，换成了我们自定义的微服务名称mydept，同时加上了前缀haust，这样就做到了对路由fan访问的加密处理！
 
@@ -2712,7 +2712,7 @@ Spring Cloud Config为分布式系统中的外部配置提供服务器和客户�
 
 **什么是SpringCloud config分布式配置中心？**
 
-![image-20211028191148230](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211028191157.png)
+![image-20211028191148230](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211028191157.png)
 
  spring cloud config 为微服务架构中的微服务提供集中化的外部支持，配置服务器为各个不同微服务应用的所有环节提供了一个中心化的外部配置。
 
@@ -2789,7 +2789,7 @@ spring cloud config 分布式配置中心能干嘛？
      git pull
      ```
 
-     ![image-20211028231401133](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211028231402.png)
+     ![image-20211028231401133](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211028231402.png)
 
   
 
@@ -2881,25 +2881,25 @@ HTTP服务具有以下格式的资源：
 
 测试访问http://localhost:3344/application-dev.yml
 
-![image-20211028231636050](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211028231636.png)
+![image-20211028231636050](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211028231636.png)
 
 测试访问 http://localhost:3344/application/test/master
 
-![image-20211028232101576](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211028232101.png)
+![image-20211028232101576](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211028232101.png)
 
 测试访问 http://localhost:3344/master/application-dev.yml
 
-![image-20211028232141917](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211028232142.png)
+![image-20211028232141917](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211028232142.png)
 
 如果测试访问不存在的配置则不显示 如：http://localhost:3344/master/application-aaa.yml
 
-![image-20211028232151070](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211028232151.png)
+![image-20211028232151070](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211028232151.png)
 
 #### **客户端**
 
 将本地git仓库springcloud-config文件夹下新建的config-client.yml提交到码云仓库：
 
-![image-20211028232404408](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211028232404.png)
+![image-20211028232404408](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211028232404.png)
 
 新建一个springcloud-config-client-3355模块，并导入依赖
 
@@ -2992,7 +2992,7 @@ public class ConfigClient {
 
 访问：http://localhost:8201/config/
 
-![image-20211028232651652](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211028232651.png)
+![image-20211028232651652](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211028232651.png)
 
 #### 小案例
 
@@ -3204,11 +3204,11 @@ public class ConfigEurekaServer_7001 {
 
 第一步：启动 Config_Server_3344，并访问 http://localhost:3344/master/config-eureka-dev.yml 测试
 
-![image-20211030184247199](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211030184255.png)
+![image-20211030184247199](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211030184255.png)
 
 第二部：启动ConfigEurekaServer_7001，访问 http://localhost:7001/ 测试
 
-![image-20211030184325986](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211030184326.png)
+![image-20211030184325986](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211030184326.png)
 
 显示上图则成功
 
@@ -3255,11 +3255,11 @@ Action:  Consider renaming one of the beans or enabling overriding by setting sp
 
 请在==application.yaml==添加如下代码
 
-![image-20211030184551739](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211030184551.png)
+![image-20211030184551739](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211030184551.png)
 
 测试:
 
-![image-20211030184748850](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211030184749.png)
+![image-20211030184748850](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211030184749.png)
 
 如图即为成功，完结撒花！！！
 

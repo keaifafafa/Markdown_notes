@@ -16,13 +16,13 @@
 
 在Dubbo的官网文档有这样一张图
 
- ![image-20211012133118635](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211012133126.png)
+ ![image-20211012133118635](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211012133126.png)
 
 ### ==3、单一应用架构==
 
 当网站流量很小时，只需一个应用，将所有功能都部署在一起，以减少部署节点和成本。此时，用于简化增删改查工作量的数据访问框架(ORM)是关键。
 
- ![image-20211012133237040](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211012133237.png)
+ ![image-20211012133237040](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211012133237.png)
 
 适用于小型网站，小型管理系统，将所有功能都部署到一个功能里，简单易用。
 
@@ -38,7 +38,7 @@
 
 当访问量逐渐增大，单一应用增加机器带来的加速度越来越小，将应用拆成互不相干的几个应用，以提升效率。此时，用于加速前端页面开发的Web框架(MVC)是关键。
 
- ![image-20211012133400919](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211012133401.png)
+ ![image-20211012133400919](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211012133401.png)
 
 通过切分业务来实现各个模块独立部署，降低了维护和部署的难度，团队各司其职更易管理，性能扩展也更方便，更有针对性。
 
@@ -48,13 +48,13 @@
 
 当垂直应用越来越多，应用之间交互不可避免，将核心业务抽取出来，作为独立的服务，逐渐形成稳定的服务中心，使前端应用能更快速的响应多变的市场需求。此时，用于提高业务复用及整合的**分布式服务框架(RPC)**是关键。
 
- ![image-20211012133608906](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211012133608.png)
+ ![image-20211012133608906](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211012133608.png)
 
 ### ==6、流动式计算架构==
 
 当服务越来越多，容量的评估，小服务资源的浪费等问题逐渐显现，此时需增加一个调度中心基于访问压力实时管理集群容量，提高集群利用率。此时，用于**提高机器利用率的资源调度和治理中心**(SOA)[ Service Oriented Architecture]是关键。
 
- ![image-20211012133723437](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211012133723.png)
+ ![image-20211012133723437](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211012133723.png)
 
 ## 二、什么是RPC
 
@@ -66,11 +66,11 @@ RPC【Remote Procedure Call】是指远程过程调用，是一种进程间通�
 
 **RPC基本原理**
 
- ![image-20211012134003917](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211012134004.png)
+ ![image-20211012134003917](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211012134004.png)
 
 **步骤解析：**
 
- ![image-20211012134119421](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211012134119.png)
+ ![image-20211012134119421](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211012134119.png)
 
 RPC两个核心模块：通讯，序列化。
 
@@ -88,7 +88,7 @@ dubbo官网 http://dubbo.apache.org/zh-cn/index.html
 
 **dubbo基本概念**
 
- ![image-20211012134504983](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211012134505.png)
+ ![image-20211012134504983](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211012134505.png)
 
 **服务提供者**（Provider）：暴露服务的服务提供方，服务提供者在启动时，向注册中心注册自己提供的服务。
 
@@ -151,15 +151,15 @@ ls /：列出zookeeper根下保存的所有节点
 
 create –e /kuangshen 123：创建一个kuangshen节点，值为123
 
- ![image-20211012135204567](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211012135204.png)
+ ![image-20211012135204567](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211012135204.png)
 
 get /kuangshen：获取/kuangshen节点的值
 
- ![image-20211012135234364](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211012135234.png)
+ ![image-20211012135234364](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211012135234.png)
 
 我们再来查看一下节点
 
- ![image-20211012135301003](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211012135301.png)
+ ![image-20211012135301003](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211012135301.png)
 
 ### ==4、Windows下安装dubbo-admin==
 
@@ -198,7 +198,7 @@ mvn clean package -Dmaven.test.skip=true
 
 **第一次打包的过程有点慢，需要耐心等待！直到成功！**
 
- ![11-1](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211012135922.png)
+ ![11-1](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211012135922.png)
 
 4、执行 dubbo-admin\target 下的dubbo-admin-0.0.1-SNAPSHOT.jar
 
@@ -212,7 +212,7 @@ java -jar dubbo-admin-0.0.1-SNAPSHOT.jar
 
 登录成功后，查看界面
 
-![image-20211012140327485](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211012140327.png)
+![image-20211012140327485](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211012140327.png)
 
 安装完成！
 
@@ -410,7 +410,7 @@ dubbo.registry.address=zookeeper://127.0.0.1:2181
 
 **3. 本来正常步骤是需要将服务提供者的接口打包，然后用pom文件导入，我们这里使用简单的方式，直接将服务的接口拿过来，路径必须保证正确，即和服务提供者相同；**
 
- ![image-20211012143328356](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211012143328.png)
+ ![image-20211012143328356](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211012143328.png)
 
 **4. 完善消费者的服务类**
 
@@ -473,11 +473,11 @@ class ConsumerServerApplicationTests {
 
 **4. 消费者消费测试，结果：**
 
- ![image-20211012143705233](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211012143705.png)
+ ![image-20211012143705233](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211012143705.png)
 
 **监控中心 ：**
 
- ![image-20211012143717092](https://gitee.com/lovely-hair/blog-img/raw/master/img/20211012143717.png)
+ ![image-20211012143717092](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20211012143717.png)
 
 **ok , 这就是SpingBoot + dubbo + zookeeper实现分布式开发的应用，其实就是一个服务拆分的思想；**
 

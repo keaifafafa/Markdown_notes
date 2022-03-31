@@ -8,21 +8,21 @@
 
 - 突然有一天就不行了，结果如下图，而且无法上网，这是OWASP的图，Kali里也是一样的结果
 
-  ![20190304211534787](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210903175246.png)
+  ![20190304211534787](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210903175246.png)
 
 ## 2、解决办法
 
 > ==打开任务管理器（ctrl + shift + esc）==
 
-![image-20210903175710014](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210903175710.png)
+![image-20210903175710014](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210903175710.png)
 
 > ==打开服务==
 
-![image-20210903175818611](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210903175818.png)
+![image-20210903175818611](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210903175818.png)
 
 > ==把启动类型改为自动==
 
-![image-20210903175951815](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210903175951.png)
+![image-20210903175951815](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210903175951.png)
 
 目前这个问题算是暂时解决了，可以查到ip并上网了，不过我发现重启以后，那四个中的其中两个就又会自动关闭
 
@@ -36,6 +36,6 @@
 
   netsh winhttp reset proxy按回车
 
-  ![efb861bd4c7c34b35b92cd085841037de037316a](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210903180437.jpg)
+  ![efb861bd4c7c34b35b92cd085841037de037316a](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210903180437.jpg)
 
 然后重启电脑即可！

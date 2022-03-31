@@ -86,7 +86,7 @@ Spring官方提供了非常方便的工具让我们快速构建应用 , Spring I
 
 6、等待项目构建成功、
 
-![14-1](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210914215044.png)
+ ![14-1](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210914215044.png)
 
 **项目结构分析：**
 
@@ -173,7 +173,7 @@ public class HelloController {
 
 > ==将项目打包成jar包，点击maven的package==
 
-![14-3](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210914214631.png)
+![14-3](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210914214631.png)
 
 如果打包成功，则会在target目录下生成一个 jar 包
 
@@ -181,7 +181,7 @@ public class HelloController {
 
 > ==如果插件没导入成功==
 
-![14-2](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210914215034.png)
+![14-2](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210914215034.png)
 
 ### 1.3、彩蛋
 
@@ -191,11 +191,11 @@ public class HelloController {
 
 图案可以到：[https://www.bootschool.net/ascii](https://links.jianshu.com/go?to=https%3A%2F%2Fwww.bootschool.net%2Fascii) 这个网站生成，然后拷贝到文件中即可
 
-![image-20210914214812099](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210914214812.png)
+![image-20210914214812099](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210914214812.png)
 
 可以再application.properties文件下编写tomcat的服务端口
 
-![image-20210914214956441](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210914214956.png)
+![image-20210914214956441](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210914214956.png)
 
 
 
@@ -260,7 +260,7 @@ public class Springboot01HelloworldApplication {
     
   - Spring核心配置包
 
-     ![image-20210915173951175](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210915173958.png)
+     ![image-20210915173951175](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210915173958.png)
 
   - 
 
@@ -405,13 +405,13 @@ private static Map<String, List<String>> loadSpringFactories(@Nullable ClassLoad
 
 我们根据源头打开spring.factories ， 看到了很多自动配置的文件；这就是自动配置根源所在！
 
- ![image-20210915173951175](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210915173958.png)
+ ![image-20210915173951175](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210915173958.png)
 
 > ==**WebMvcAutoConfiguration**==
 
 我们在上面的自动配置类随便找一个打开看看，比如 ：WebMvcAutoConfiguration
 
-![image-20210915182651683](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210915182651.png)
+![image-20210915182651683](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210915182651.png)
 
 可以看到这些一个个的都是JavaConfig配置类，而且都注入了一些Bean，可以找一些自己认识的类，看着熟悉一下！
 
@@ -471,7 +471,7 @@ public SpringApplication(ResourceLoader resourceLoader, Class... primarySources)
 
 > ==run方法流程分析==
 
- ![image-20210915184529208](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210915184529.png)
+ ![image-20210915184529208](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210915184529.png)
 
 ## 3、YAML配置注入
 
@@ -625,7 +625,7 @@ public class Dog {
 
 结果成功输出，@Value注入成功，这是我们原来的办法对吧。
 
- ![image-20210916160711997](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210916160720.png)
+ ![image-20210916160711997](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210916160720.png)
 
 5、我们在编写一个复杂一点的实体类：Person 类
 
@@ -669,7 +669,7 @@ person:
 
 7、IDEA 提示，springboot配置注解处理器没有找到，让我们看文档，我们可以查看文档，找到一个依赖！
 
- ![640](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210916161056.png)
+ ![640](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210916161056.png)
 
 ```xml
 <!-- 导入配置文件处理器，配置文件进行绑定就会有提示，需要重启 -->
@@ -761,7 +761,7 @@ settings-->FileEncodings 中配置；
 
 @Value这个使用起来并不友好！我们需要为每个属性单独注解赋值，比较麻烦；我们来看个功能对比图
 
- ![image-20210916161719616](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210916161719.png)
+ ![image-20210916161719616](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210916161719.png)
 
 1、@ConfigurationProperties只需要写一次即可 ， @Value则需要每个字段都添加
 
@@ -892,7 +892,7 @@ spring:
 
 官方外部配置文件说明参考文档
 
- ![image-20210916184042207](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210916184042.png)
+ ![image-20210916184042207](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210916184042.png)
 
 springboot 启动会扫描以下位置的application.properties或者application.yml文件作为Spring boot的默认配置文件：
 
@@ -1023,7 +1023,7 @@ public class HttpProperties {
 
 作用：必须是@Conditional指定的条件成立，才给容器中添加组件，配置配里面的所有内容才生效；
 
-![image-20210917134511962](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210917134520.png)
+![image-20210917134511962](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210917134520.png)
 
 **那么多的自动配置类，必须在一定的条件下才能生效；也就是说，我们加载了这么多的配置类，但不是所有的都生效了。**
 
@@ -1060,7 +1060,7 @@ jsp支持非常强大的功能，包括能写Java代码，但是呢，我们现�
 
 模板引擎，我们其实大家听过很多，jsp其实就是一个模板引擎，还有用的比较多的freemarker，包括SpringBoot给我们推荐的Thymeleaf，模板引擎非常多，但是他们的思想大同小异，思想大致如下图：
 
- ![image-20210918215440611](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210918215450.png)
+ ![image-20210918215440611](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210918215450.png)
 
 模板引擎的作用就是我们来写一个页面模板，比如有些值呢，是动态的，我们写一些表达式。而这些值，从哪来呢，就是我们在后台封装一些数据。然后把这个模板和这个数据交给我们模板引擎，模板引擎按照我们这个数据帮你把这表达式解析、填充到我们指定的位置，然后把这个数据最终生成一个我们想要的内容给我们写出去，这就是我们这个模板引擎，不管是jsp还是其他模板引擎，都是这个思想。只不过呢，就是说不同模板引擎之间，他们可能这个语法有点不一样。其他的我就不介绍了，我主要来介绍一下SpringBoot给我们推荐的Thymeleaf模板引擎，这模板引擎呢，是一个高级语言的模板引擎，他的这个语法更简单。而且呢，功能更强大。
 
@@ -1091,7 +1091,7 @@ https://docs.spring.io/spring-boot/docs/2.2.5.RELEASE/reference/htmlsingle/#usin
 
 Maven会自动下载jar包，我们可以去看下下载的东西；
 
- ![image-20210918215654694](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210918215654.png)
+ ![image-20210918215654694](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210918215654.png)
 
 > ==Themleaf分析==
 
@@ -1217,7 +1217,7 @@ xmlns:th="http://www.thymeleaf.org"
 
 **1、我们可以使用任意的 th:attr 来替换Html中原生属性的值！**
 
- ![image-20210918220741330](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210918220741.png)
+ ![image-20210918220741330](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210918220741.png)
 
 **2、我们能写哪些表达式呢？**
 
@@ -1490,7 +1490,7 @@ private static class MyViewResolver implements ViewResolver{
 
 我们给 DispatcherServlet 中的 doDispatch方法 加个断点进行调试一下，因为所有的请求都会走到这个方法中
 
- ![image-20210918223030158](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210918223030.png)
+ ![image-20210918223030158](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210918223030.png)
 
 3、我们启动我们的项目，然后随便访问一个页面，看一下Debug信息；
 
@@ -1537,7 +1537,7 @@ public class MyMvcConfig implements WebMvcConfigurer {
 
 我们去浏览器访问一下：
 
- ![image-20210918223305621](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210918223305.png)
+ ![image-20210918223305621](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210918223305.png)
 
 **确实也跳转过来了！所以说，我们要扩展SpringMVC，官方就推荐我们这么去使用，既保SpringBoot留所有的自动配置，也能用我们扩展的配置！**
 
@@ -1607,11 +1607,11 @@ If you want to take complete control of Spring MVCyou can add your own @Configur
 
 不加注解之前，访问首页：
 
- ![image-20210918223527507](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210918223527.png)
+ ![image-20210918223527507](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210918223527.png)
 
 给配置类加上注解：@EnableWebMvc
 
- ![image-20210918223544182](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210918223544.png)
+ ![image-20210918223544182](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210918223544.png)
 
 我们发现所有的SpringMVC自动配置都失效了！回归到了最初的样子；
 
@@ -1663,7 +1663,7 @@ public class WebMvcAutoConfiguration {
 
 现在IDEA中统一设置properties的编码问题！
 
- ![image-20210919220210686](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210919220257.png)
+ ![image-20210919220210686](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210919220257.png)
 
 编写国际化配置文件，抽取页面需要显示的国际化页面消息。我们可以去登录页面查看一下，哪些内容我们需要编写国际化的配置
 
@@ -1673,15 +1673,15 @@ public class WebMvcAutoConfiguration {
 
 2、建立一个login.properties文件，还有一个login_zh_CN.properties；发现IDEA自动识别了我们要做国际化操作；文件夹变了！
 
- ![image-20210919220403265](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210919220403.png)
+ ![image-20210919220403265](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210919220403.png)
 
 3、接下来，我们就来编写配置，我们可以看到idea下面有另外一个视图；
 
-![19-1](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210919220515.png)
+![19-1](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210919220515.png)
 
 这个视图我们点击 + 号就可以直接添加属性了；我们新建一个login.tip，可以看到边上有三个文件框可以输入
 
-![image-20210919220700579](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210919220700.png)
+![image-20210919220700579](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210919220700.png)
 
 然后去查看我们的配置文件；
 
@@ -1760,7 +1760,7 @@ spring.messages.basename=i18n.login
 
 IDEA还有提示，非常智能的！
 
-![image-20210919222049507](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210919222049.png)
+![image-20210919222049507](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210919222049.png)
 
 我们可以去启动项目，访问一下，发现已经自动识别为中文的了！
 

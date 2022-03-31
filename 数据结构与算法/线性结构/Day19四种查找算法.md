@@ -196,7 +196,7 @@ public class BinarySearch {
 
 > ==原理介绍==
 
- ![image-20220118223816552](https://gitee.com/lovely-hair/blog-img/raw/master/img/20220121153743.png)
+ ![image-20220118223816552](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220121153743.png)
 
 > ==代码实现==
 
@@ -271,11 +271,11 @@ public class InsertValSearch {
 
 **注意：斐波那契算法也是需要数组是有序的！！！**
 
- ![image-20220120210839297](https://gitee.com/lovely-hair/blog-img/raw/master/img/20220120210848.png)
+ ![image-20220120210839297](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220120210848.png)
 
 > ==算法思路==
 
- ![image-20220120210926843](https://gitee.com/lovely-hair/blog-img/raw/master/img/20220120210926.png)
+ ![image-20220120210926843](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220120210926.png)
 
 > ==代码实现==
 

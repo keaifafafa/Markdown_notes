@@ -1,6 +1,6 @@
 ##  一、栈的简介
 
-![image-20220105172357671](https://gitee.com/lovely-hair/blog-img/raw/master/img/20220105172400.png)
+![image-20220105172357671](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220105172400.png)
 
 1、栈的英文为(stack)
 
@@ -12,7 +12,7 @@
 
 5、出栈(pop)和入栈(push)的概念(如图所示)
 
- ![image-20220105172537102](https://gitee.com/lovely-hair/blog-img/raw/master/img/20220105172537.png)
+ ![image-20220105172537102](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220105172537.png)
 
 > ==栈的应用简介==
 
@@ -34,7 +34,7 @@
 		 当然可以使用数组的结构来储存栈的数据内容，
  		下面我们就用数组模拟栈的**出栈**，**入栈**等操作。
 
- 2)实现思路分析,并画出示意图![image-20220105172708905](https://gitee.com/lovely-hair/blog-img/raw/master/img/20220105172708.png)
+ 2)实现思路分析,并画出示意图![image-20220105172708905](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220105172708.png)
 
 > ==代码实现==
 

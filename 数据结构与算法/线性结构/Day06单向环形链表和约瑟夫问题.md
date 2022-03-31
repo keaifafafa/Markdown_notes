@@ -2,7 +2,7 @@
 
 ### 1、单向环形链表的应用场景
 
- ![image-20220104181727639](https://gitee.com/lovely-hair/blog-img/raw/master/img/20220104181729.png)
+ ![image-20220104181727639](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220104181729.png)
 
 **Josephu**(约瑟夫、约瑟夫环)**问题**
 
@@ -12,13 +12,13 @@ Josephu 问题为：设编号为1，2，… n的n个人围坐一圈，约定编�
 
 ### 2、单向环形链表的示意图
 
- ![image-20220104181823571](https://gitee.com/lovely-hair/blog-img/raw/master/img/20220104181823.png)
+ ![image-20220104181823571](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220104181823.png)
 
 ## 二、实现约瑟夫问题
 
 ### 1、思路解析
 
- ![image-20220105145942395](https://gitee.com/lovely-hair/blog-img/raw/master/img/20220105145949.png)
+ ![image-20220105145942395](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220105145949.png)
 
 **构建**一个单向的环形链表思路
 

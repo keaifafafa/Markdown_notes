@@ -21,7 +21,7 @@ SSM框架:配置文件的。最好的方式：看官网文档
 
 ### 1.1什么是MyBatis
 
- ![mybatis](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210723212555.jpg) 
+ ![mybatis](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210723212555.jpg) 
 
 **官网（有时候可能需要翻墙）**:https://mybatis.org/mybatis-3/zh/index.html
 
@@ -158,7 +158,7 @@ Records: 3  Duplicates: 0  Warnings: 0
 
 1. 编写mybatis核心配置文件
 
-   ![1626498686337](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210723212604.png)
+   ![1626498686337](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210723212604.png)
 
    ```xml
    <?xml version="1.0" encoding="UTF-8" ?>
@@ -314,7 +314,7 @@ Records: 3  Duplicates: 0  Warnings: 0
 
   这里建议和java文件夹里的目录层次保持一致
 
-  ![1626510218323](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210723212614.png)
+  ![1626510218323](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210723212614.png)
 
   ```java
   public class UserDaoTest {
@@ -353,7 +353,7 @@ Records: 3  Duplicates: 0  Warnings: 0
 
 当完成上面的步骤后发现还是有错误
 
-![1626510782626](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210723212617.png)
+![1626510782626](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210723212617.png)
 
 这个错误是Maven的问题，记得前面在javaweb的时候就说过，maven的约定大于配置的问题
 
@@ -361,7 +361,7 @@ Records: 3  Duplicates: 0  Warnings: 0
 
 - 第一种（很麻烦，不推荐）
 
-  ![1626510947386](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210723212623.png)
+  ![1626510947386](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210723212623.png)
 
 - 第二种  在父工程的pom.xml或者子工程的pom.xml中添加这样一段Java代码
 
@@ -562,7 +562,7 @@ Map传递参数，直接在sql中取出key即可！ 【parameter=“map”】
 ### 4.1、核心配置文件
 
 - mybatis-config.xml
-- Mybatis的配置文件包含了会深深影响Mybatis行为的设置和属性信息![1626574122559](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210723212632.png)
+- Mybatis的配置文件包含了会深深影响Mybatis行为的设置和属性信息![1626574122559](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210723212632.png)
 
 ### 4.2、环境配置 environments
 
@@ -642,7 +642,7 @@ Mybatis默认的事务管理器就是JDBC，连接池：POOLED
 
 这是Mybatis中极为重要的调整设置，他们会改变Mybatis的运行时行为。
 
- ![在这里插入图片描述](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210723212639.png) 
+ ![在这里插入图片描述](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210723212639.png) 
 
 ### 4.6、其他配置
 
@@ -690,7 +690,7 @@ Mybatis默认的事务管理器就是JDBC，连接池：POOLED
 
 ### 4.8、生命周期和作用域
 
-![20200623164809990](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210723212644.png)
+![20200623164809990](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210723212644.png)
 
  声明周期和作用域是至关重要的，因为错误的使用会导致非常严重的**并发问题**。 
 
@@ -714,7 +714,7 @@ Mybatis默认的事务管理器就是JDBC，连接池：POOLED
 
 - 用完之后需要赶紧关闭，否则资源被占用。
 
-  ![2](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210723212649.png)
+  ![2](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210723212649.png)
 
 ## 5、解决属性名和字段名不一致的问题
 
@@ -722,7 +722,7 @@ Mybatis默认的事务管理器就是JDBC，连接池：POOLED
 
 数据库的字段
 
-![1626615097031](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210723212654.png)
+![1626615097031](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210723212654.png)
 
 新建一个项目，拷贝之前的，测试实体类字段不一致的情况
 
@@ -758,7 +758,7 @@ public class User {
 
 测试出现问题（password的值为null）
 
-![1626681751607](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210723212658.png)
+![1626681751607](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210723212658.png)
 
 ```java
 //select * from mybatis.user where id = #{id};
@@ -805,7 +805,7 @@ id name password
 </select>
 ```
 
-![1626683422968](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210723212850.png)
+![1626683422968](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210723212850.png)
 
 - resultMap元素是Mybatis中最重要最强大的元素
 - ResultMap的设计思想是，对于简单的语句做到零配置，对于复杂一点的语句,只需要描述语句之间的关系就行了
@@ -822,7 +822,7 @@ id name password
 
 现在：日志工厂
 
-![1626744306803](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210723212709.png)
+![1626744306803](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210723212709.png)
 
 -  SLF4J 
 - LOG4J (掌握)
@@ -836,11 +836,11 @@ id name password
 
 **严格按照顺序添加**
 
-![1626744492175](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210723212716.png)
+![1626744492175](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210723212716.png)
 
 运行结果：
 
-![1626744541739](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210723212721.png)
+![1626744541739](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210723212721.png)
 
 ### 6.2、LOG4J
 
@@ -863,7 +863,7 @@ id name password
 
    
 
-2. log4j.properties(名字一定要是这个，不然找不到）![1626762540045](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210723212731.png)
+2. log4j.properties(名字一定要是这个，不然找不到）![1626762540045](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210723212731.png)
 
    ```properties
    log4j.rootLogger=DEBUG,console,file
@@ -893,7 +893,7 @@ id name password
 
    
 
-3. 配置settings为log4j实现     ![1626762584837](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210723212738.png)
+3. 配置settings为log4j实现     ![1626762584837](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210723212738.png)
 
 4. 测试运行
 
@@ -1020,7 +1020,7 @@ SELECT * from user limit startIndex,pageSize;
 
 ### 7.3、分页插件(了解)
 
-![1](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210723212939.png)
+![1](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210723212939.png)
 
 
 
@@ -1088,7 +1088,7 @@ public void testGetAllUser() {
 
  4、利用Debug查看本质 
 
-![4](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210723213001.png)
+![4](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210723213001.png)
 
 接口 === 架构（骨头）
 
@@ -1098,11 +1098,11 @@ public void testGetAllUser() {
 
  5、本质上利用了jvm的动态代理机制 
 
-![1](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210723212952.png)
+![1](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210723212952.png)
 
  6、Mybatis详细的执行流程 
 
-![3](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210723213007.png)
+![3](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210723213007.png)
 
 ### 8.3、注解方式实现CRUD
 
@@ -1136,7 +1136,7 @@ int deleteUser(@Param("uid") int id);
 
 1. 在IDEA中安装Lombok插件(点击Settings-->Plugins)
 
-   ![image-20210726145842401](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210726145842.png)
+   ![image-20210726145842401](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210726145842.png)
 
 2. 在项目中导入lombok的jar包
 
@@ -1175,7 +1175,7 @@ int deleteUser(@Param("uid") int id);
    @val
    ```
 
-   ![1626849898457](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210723213014.png)
+   ![1626849898457](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210723213014.png)
 
 ## 10、多对一的处理
 
@@ -1826,7 +1826,7 @@ public void testGetUserById(){
 }
 ```
 
-![1627007182345](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210723213033.png)
+![1627007182345](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210723213033.png)
 
 ### 13.5、一级缓存失效的四种情况
 
@@ -2042,7 +2042,7 @@ public void testQueryUserById(){
   
   ```
 
-  ![1627008049524](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210723212538.png)
+  ![1627008049524](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210723212538.png)
 
 ### 13.8 结论
 
@@ -2052,13 +2052,13 @@ public void testQueryUserById(){
 
 ### 13.9、缓存原理图
 
-![1](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210723212535.png)
+![1](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210723212535.png)
 
-![2](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210723212530.png)
+![2](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210723212530.png)
 
 ### 13.10、EhCache(自定义缓存)
 
-![3](https://raw.githubusercontent.com/keaifafafa/IO/master/img/pic/20210723212521.png)
+![3](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210723212521.png)
 
 第三方缓存实现–EhCache: 查看百度百科
 
