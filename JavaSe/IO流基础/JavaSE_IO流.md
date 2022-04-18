@@ -154,12 +154,13 @@ System.out.println(sss);
 
 ## 2.  IO流输入输出
 
+ ![image-20220415115553433](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220416212558.png)
+
 ### 2.1 节点流 和 处理流
 
 - <font color='red'>节点流</font>
   可以从或向一个特定的地方（节点）读写数据。
   如：FileReader、FileWriter、FileInputStream、FileOutputStream等文件进行处理的节点流。
-
 - <font color='red'>处理流</font>
   是对一个已存在的流的连接和封装，通过所封装的流的功能调用实现数据读写。
   如BufferedReader。
@@ -169,12 +170,14 @@ System.out.println(sss);
   BufferedOutputStream
   BufferedReader
   BufferedWriter
+-  ![image-20220415114511341](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220415114518.png)
+-  ![image-20220415120102866](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220415120103.png)
 
 ### 2.2 节点流：四大抽象类
 
 #### 2.2.0 概述
 
-![1618146916886](1618146916886.png)
+![1618146916886](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220331224549.png)
 
 #### 2.2.1 InputStream(字节输入流)
 
@@ -284,11 +287,13 @@ try {
 #### 2.3.1     具体装饰流 字节缓冲流Buffered
 
 ```java
-//就是装饰FileInputStream  可以调高近五倍的效率
+// 就是装饰FileInputStream  可以调高近五倍的效率
 InputStream is = new BufferedInputStream(new FileInputStream(inPath));
 ```
 
-![1618319388140](1618319388140.png)
+![1618319388140](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220331224545.png)
+
+ ![image-20220415120734513](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220415120734.png)
 
 #### 2.3.1字符缓冲流
 
@@ -313,6 +318,24 @@ InputStream is = new BufferedInputStream(new FileInputStream(inPath));
 
 ### 2.4 转换流(convert)
 
+> 简介
+
+- 转换流提供了在字节流和字符流之间的转换
+- Java API提供了两个转换流：
+- InputStreamReader：将InputStream转换为Reader
+- OutputStreamWriter：将Writer转换为OutputStream
+- 字节流中的数据都是字符时，转成字符流操作更高效。
+- 很多时候我们使用转换流来处理文件乱码问题。实现编码和
+- 解码的功能。
+
+> 用法
+
+ ![image-20220416172256522](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220416172303.png)
+
+ ![image-20220416172309926](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220416172310.png)
+
+ ![image-20220416172329697](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220416172329.png)
+
 以字符流的形式 操作字节流(纯文本的)
 
 指定字符集
@@ -333,7 +356,7 @@ try(BufferedReader reader = new BufferedReader(new InputStreamReader(System.in))
     System.out.println("输出异常！");
 }
 //案例二  读取百度源代码，并下载下来
-try (BufferedReader reader = 
+try (    BufferedReader reader = 
      new BufferedReader(
          new InputStreamReader(
              new URL("https://www.baidu.com").openStream(), "UTF-8"));
@@ -350,7 +373,9 @@ try (BufferedReader reader =
 }
 ```
 
-### 2.5 数据流
+### 2.5 数据流（了解）
+
+ ![image-20220416175825978](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220416175826.png)
 
 ```java
 //先写输入流   字节数组流不用处理异常
@@ -377,7 +402,25 @@ System.out.println(age);
 
 ### 2.6 对象流
 
-![1618583711294](1618583711294.png)
+   ![1618583711294](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220331224527.png)
+
+> 简介
+
+ ![image-20220416181417689](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220416181452.png)
+
+> java对象的序列化
+
+ ![image-20220416181452134](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220416181452.png)
+
+ ![image-20220416181929636](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220416181929.png)
+
+ ![image-20220418155419982](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220418155420.png)
+
+> 思考
+
+ ![image-20220418155403503](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220418155412.png)
+
+> 代码演示
 
 ```java
 /* 对象流 ObjectInputStream ObjectOutputStream

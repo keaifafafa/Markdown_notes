@@ -51,7 +51,7 @@
 
 ## 3.五大基本原则：
 
-​	**1、单一职责原则SRP(Single Responsibility Principle)**
+**1、单一职责原则SRP(Single Responsibility Principle)**
 ​	 类的功能要单一，不能包罗万象，跟杂货铺似的。
 ​	 **2、开放封闭原则OCP(Open－Close Principle)**
 ​	 一个模块对于拓展是开放的，对于修改是封闭的，想要增加功能热烈欢迎，想要修改，哼，一万个不乐意。

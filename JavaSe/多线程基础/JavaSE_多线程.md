@@ -39,7 +39,7 @@
 
 ### 4、1 线程状态
 
-![1](1.png)
+![1](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220331224805.png)
 
 ```java
 //线程状态观测
@@ -80,7 +80,7 @@ public class TestState{
 
 ```
 
-![2](2.png)
+![2](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220331224809.png)
 
 ### 4、2停止线程
 
@@ -162,7 +162,7 @@ public class TestSleep {
 
 ### 4、4线程礼让
 
-![1619513837206](1619513837206.png)
+![1619513837206](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220331224819.png)
 
 ```java
 //礼让线程yield  线程礼让不一定会成功 完全看CPU 的心情
@@ -184,7 +184,7 @@ public class TestYield implements Runnable {
 
 ```
 
-![1624171215774](1624171215774.png)
+![1624171215774](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220331224819.png)
 
 ### 4、5 线程强行执行
 
@@ -224,7 +224,7 @@ public class TestJoin implements Runnable {
 
 ### 4、6守护线程(deamon)
 
-![3](3.png)
+![3](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220331224827.png)
 
 ```java
 //守护线程Daemon
@@ -272,14 +272,14 @@ class You implements Runnable{
 
 ### 5、1 介绍
 
-![4](4.png)
+![4](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220331224835.png)
 
 ### 5、2 同步方法 synchronized
 
-![5](5.png)
+![5](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220331224838.png)
 
 ```java
-//一定要明确锁的对象 默认是this(锁的一定要是变化的量)
+// 一定要明确锁的对象 默认是this(锁的一定要是变化的量)
 public class UnsafeTicket implements Runnable {
     int ticketnum = 10;//初始时十张票
     @Override
@@ -308,7 +308,7 @@ public class UnsafeTicket implements Runnable {
 
 ### 5、3同步块
 
-![6](6.png)
+![6](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220331224850.png)
 
 ```java
 //不安全的银行案例
@@ -382,7 +382,7 @@ CopyOnWriteArrayList<String> list = new CopyOnWriteArrayList<>();
 
 多个线程互相拥抱着对方的资源，形成僵持
 
-![11](11.png)
+![11](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220331224911.png)
 
 ```java
 //死锁
@@ -446,13 +446,13 @@ class MakeUp implements Runnable{
 
 ### 5、6  死锁避免方案
 
-![12](12.png)
+![12](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220331224916.png)
 
 ### 5、7 可重入锁（ReentrantLock）
 
-![1](1-1619706673189.png)
+![1](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220331224920.png)
 
-![2](2-1619706724232.png)
+![2](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220331224931.png)
 
 ```java
 //锁 ReentrantLock 可重入锁

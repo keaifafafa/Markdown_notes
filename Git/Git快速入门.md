@@ -139,7 +139,7 @@ git config --global user.email 648119398@qq.com   #邮箱
 
 Git本地有三个工作区域：工作目录（Working Directory）、暂存区(Stage/Index)、资源库(Repository或Git Directory)。如果在加上远程的git仓库(Remote Directory)就可以分为四个工作区域。文件在这四个区域之间的转换关系如下：
 
-![image-20210927212700493](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210927212700.png)
+ ![image-20210927212700493](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210927212700.png)
 
 - Workspace：工作区，就是你平时存放项目代码的地方
 - Index / Stage：暂存区，用于临时存放你的改动，事实上它只是一个文件，保存即将提交到文件列表信息
@@ -169,7 +169,7 @@ git的工作流程一般是这样的：
 
 因此，git管理的文件有三种状态：已修改（modified）,已暂存（staged）,已提交(committed)
 
-![image-20210927213041575](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210927213041.png)
+ ![image-20210927213041575](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210927213041.png)
 
 ## 4、Git项目搭建
 
@@ -179,7 +179,7 @@ git的工作流程一般是这样的：
 
 日常使用只要记住下图6个命令：
 
-![image-20210927213139622](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210927213139.png)
+ ![image-20210927213139622](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210927213139.png)
 
 > ==本地仓库搭建==
 
@@ -194,7 +194,7 @@ git的工作流程一般是这样的：
 
 2、执行后可以看到，仅仅在项目目录多出了一个.git目录，关于版本等的所有信息都在这个目录里面。
 
-![image-20210927213346325](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210927213346.png)
+ ![image-20210927213346325](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210927213346.png)
 
 > ==克隆远程仓库==
 
@@ -292,7 +292,7 @@ doc/*.txt    #会忽略 doc/notes.txt 但不包括 doc/server/arch.txt
 
 4、使用码云创建一个自己的仓库！
 
-![image-20210927215811432](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210927215811.png)
+ ![image-20210927215811432](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210927215811.png)
 
 > ==许可证：开源是否可以随意转载，开源但是不能商业使用，不能转载，...  限制！==
 
@@ -304,11 +304,11 @@ doc/*.txt    #会忽略 doc/notes.txt 但不包括 doc/server/arch.txt
 
 然后再本地的一个文件夹打开**Git**（随便一个文件夹就行）
 
-![image-20210927220746164](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210927220746.png)
+ ![image-20210927220746164](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210927220746.png)
 
 打开克隆的远程仓库文件（检查下文件有没有错）
 
-![image-20210927220833389](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210927220833.png)
+ ![image-20210927220833389](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210927220833.png)
 
 没错，可以进行下一步了！
 
@@ -316,39 +316,39 @@ doc/*.txt    #会忽略 doc/notes.txt 但不包括 doc/server/arch.txt
 
 1、新建项目，绑定git。
 
-![image-20210927221009247](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210927221009.png)
+ ![image-20210927221009247](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210927221009.png)
 
 然后把复制的文件，粘贴到需要被托管的idea文件工程里（如下操作，仅供参考）
 
-![image-20210927221346390](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210927221346.png)
+ ![image-20210927221346390](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210927221346.png)
 
 然后打开IDEA，观察项目的变化
 
-![image-20210927221909889](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210927221910.png)
+ ![image-20210927221909889](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210927221910.png)
 
 2、修改文件，使用IDEA操作git。
 
 - 添加到暂存区
 
-  ![image-20210927222604308](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210927222604.png)
+   ![image-20210927222604308](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210927222604.png)
 
 - commit 提交
 
   点击 右边git 旁边 那个绿色 **对钩** 就会出现如下界面
 
-  ![image-20210927222613006](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210927222613.png)
+   ![image-20210927222613006](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210927222613.png)
 
 - push到远程仓库
 
-![image-20210927223257784](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210927223257.png)
+ ![image-20210927223257784](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210927223257.png)
 
 然后选择需要push的版本
 
-![image-20210927223525658](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210927223525.png)
+ ![image-20210927223525658](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210927223525.png)
 
 最后看下结果
 
-![image-20210927223639287](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210927223639.png)
+ ![image-20210927223639287](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210927223639.png)
 
 > ==温馨提示==
 
@@ -360,9 +360,9 @@ doc/*.txt    #会忽略 doc/notes.txt 但不包括 doc/server/arch.txt
 
 分支在GIT中相对较难，分支就是科幻电影里面的平行宇宙，如果两个平行宇宙互不干扰，那对现在的你也没啥影响。不过，在某个时间点，两个平行宇宙合并了，我们就需要处理一些问题了！
 
-![image-20210927224034004](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210927224034.png)
+ ![image-20210927224034004](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210927224034.png)
 
-![image-20210927224047414](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210927224047.png)
+ ![image-20210927224047414](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210927224047.png)
 
 git分支中常用指令：
 
@@ -392,7 +392,7 @@ git分支中常用指令：
 
 IDEA中操作
 
-![image-20210927224230493](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210927224230.png)
+ ![image-20210927224230493](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20210927224230.png)
 
 
 
